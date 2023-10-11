@@ -89,27 +89,27 @@ class ChatInbox extends React.Component {
               <div className="chat-header clearfix">
                 <div className="row">
                   <div className="col-lg-6">
-                    <a data-target="#view_info" data-toggle="modal">
+                    <button data-target="#view_info" data-toggle="modal">
                       <img alt="avatar" src={Avatar2} />
-                    </a>
+                    </button>
                     <div className="chat-about">
                       <h6 className="m-b-0">Aiden Chavez</h6>
                       <small>Last seen: 2 hours ago</small>
                     </div>
                   </div>
                   <div className="col-lg-6 hidden-sm text-right">
-                    <a className="btn btn-outline-secondary mr-1">
+                    <p className="btn btn-outline-secondary mr-1">
                       <i className="icon-camera"></i>
-                    </a>
-                    <a className="btn btn-outline-primary mr-1">
+                    </p>
+                    <p className="btn btn-outline-primary mr-1">
                       <i className="icon-camcorder"></i>
-                    </a>
-                    <a className="btn btn-outline-info mr-1">
+                    </p>
+                    <p className="btn btn-outline-info mr-1">
                       <i className="icon-settings"></i>
-                    </a>
-                    <a className="btn btn-outline-warning mr-1">
+                    </p>
+                    <p className="btn btn-outline-warning mr-1">
                       <i className="icon-question"></i>
-                    </a>
+                    </p>
                   </div>
                 </div>
               </div>

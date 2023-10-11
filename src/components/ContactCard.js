@@ -24,19 +24,19 @@ class AddEventModal extends React.Component {
             <h6>{Name}</h6>
             <ul className="social-links list-unstyled">
               <li>
-                <a title="facebook">
+                <button title="facebook">
                   <i className="zmdi zmdi-facebook"></i>
-                </a>
+                </button>
               </li>
               <li>
-                <a title="twitter">
+                <button title="twitter">
                   <i className="zmdi zmdi-twitter"></i>
-                </a>
+                </button>
               </li>
               <li>
-                <a title="instagram">
+                <button title="instagram">
                   <i className="zmdi zmdi-instagram"></i>
-                </a>
+                </button>
               </li>
             </ul>
             <small>

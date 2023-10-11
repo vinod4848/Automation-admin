@@ -59,30 +59,30 @@ class TimeLine extends React.Component {
                       date-is="20-04-2018 - Today"
                     >
                       <h5>
-                        Hello, 'Im a single div responsive timeline without
+                        Hello, 'Im p single div responsive timeline without
                         media Queries!
                       </h5>
                       <span>
-                        <a>Elisse Joson</a> San Francisco, CA
+                        <p>Elisse Joson</p> San Francisco, CA
                       </span>
                       <div className="msg">
                         <p>
-                          I'm speaking with myself, number one, because I have a
-                          very good brain and I've said a lot of things. I write
+                          I'm speaking with myself, number one, because I have p
+                          very good brain and I've said p lot of things. I write
                           the best placeholder text, and I'm the biggest
                           developer on the web card she has is the Lorem card.
                         </p>
-                        <a className="m-r-20">
+                        <p className="m-r-20">
                           <i className="icon-heart"></i> Like
-                        </a>
-                        <a
+                        </p>
+                        <p
                           onClick={() => {
                             this.onCollapse(0);
                           }}
                           className={collapseCommentBox[0] ? "collapsed" : ""}
                         >
                           <i className="icon-bubbles"></i> Comment
-                        </a>
+                        </p>
                         <div
                           className={
                             collapseCommentBox[0]
@@ -114,27 +114,27 @@ class TimeLine extends React.Component {
                     >
                       <h5>Oeehhh, that's awesome.. Me too!</h5>
                       <span>
-                        <a>Katherine Lumaad</a> Oakland, CA
+                        <p>Katherine Lumaad</p> Oakland, CA
                       </span>
                       <div className="msg">
                         <p>
-                          I'm speaking with myself, number one, because I have a
-                          very good brain and I've said a lot of things. on the
+                          I'm speaking with myself, number one, because I have p
+                          very good brain and I've said p lot of things. on the
                           web by far... While that's mock-ups and this is
                           politics, are they really so different? I think the
                           only card she has is the Lorem card.
                         </p>
-                        <a className="m-r-20">
+                        <p className="m-r-20">
                           <i className="icon-heart"></i> Like
-                        </a>
-                        <a
+                        </p>
+                        <p
                           onClick={() => {
                             this.onCollapse(1);
                           }}
                           className={collapseCommentBox[1] ? "collapsed" : ""}
                         >
                           <i className="icon-bubbles"></i> Comment
-                        </a>
+                        </p>
                         <div
                           className={
                             collapseCommentBox[1]
@@ -166,27 +166,27 @@ class TimeLine extends React.Component {
                         Larger Pizza
                       </h5>
                       <span>
-                        <a>Gary Camara</a> San Francisco, CA
+                        <p>Gary Camara</p> San Francisco, CA
                       </span>
                       <div className="msg">
                         <p>
-                          I'm speaking with myself, number one, because I have a
-                          very good brain and I've said a lot of things. I write
+                          I'm speaking with myself, number one, because I have p
+                          very good brain and I've said p lot of things. I write
                           the best placeholder text, and I'm the biggest
                           developer on the web by far... While that's mock-ups
                           and this is politics, is the Lorem card.
                         </p>
-                        <a className="m-r-20">
+                        <p className="m-r-20">
                           <i className="icon-heart"></i> Like
-                        </a>
-                        <a
+                        </p>
+                        <p
                           onClick={() => {
                             this.onCollapse(2);
                           }}
                           className={collapseCommentBox[2] ? "collapsed" : ""}
                         >
                           <i className="icon-bubbles"></i> Comment
-                        </a>
+                        </p>
                         <div
                           className={
                             collapseCommentBox[2]

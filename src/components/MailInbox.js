@@ -15,7 +15,7 @@ class MailInbox extends React.Component {
         <div className="col-lg-12">
           <div className="card">
             <div className="mobile-left">
-              <a
+              <p
                 className="btn btn-primary toggle-email-nav collapsed"
                 data-toggle="collapse"
                 role="button"
@@ -26,12 +26,12 @@ class MailInbox extends React.Component {
                   <i className="la la-bars"></i>
                 </span>
                 Menu
-              </a>
+              </p>
             </div>
             <div className="mail-inbox">
               <div className="mail-left collapse" id="email-nav">
                 <div className="mail-compose m-b-20">
-                  <a
+                  <p
                     href="#!"
                     onClick={(e) => {
                       e.preventDefault();
@@ -40,80 +40,80 @@ class MailInbox extends React.Component {
                     className="btn btn-danger btn-block"
                   >
                     Compose
-                  </a>
+                  </p>
                 </div>
                 <div className="mail-side">
                   <ul className="nav">
                     <li className="active">
-                      <a>
+                      <p>
                         <i className="icon-envelope"></i>Inbox
                         <span className="badge badge-primary float-right">
                           6
                         </span>
-                      </a>
+                      </p>
                     </li>
                     <li>
-                      <a>
+                      <p>
                         <i className="icon-cursor"></i>Sent
-                      </a>
+                      </p>
                     </li>
                     <li>
-                      <a>
+                      <p>
                         <i className="icon-envelope-open"></i>Draft
                         <span className="badge badge-info float-right">3</span>
-                      </a>
+                      </p>
                     </li>
                     <li>
-                      <a>
+                      <p>
                         <i className="icon-action-redo"></i>Outbox
-                      </a>
+                      </p>
                     </li>
                     <li>
-                      <a>
+                      <p>
                         <i className="icon-star"></i>Starred
                         <span className="badge badge-warning float-right">
                           6
                         </span>
-                      </a>
+                      </p>
                     </li>
                     <li>
-                      <a>
+                      <p>
                         <i className="icon-trash"></i>Trash
                         <span className="badge badge-danger float-right">
                           9
                         </span>
-                      </a>
+                      </p>
                     </li>
                   </ul>
                   <h3 className="label">
                     Labels{" "}
-                    <a className="float-right m-r-10" title="Add New Labels">
+                    <p className="float-right m-r-10" title="Add New Labels">
                       <i className="icon-plus"></i>
-                    </a>
+                    </p>
                   </h3>
                   <ul className="nav">
                     <li className="active">
-                      <a>
+                      <p>
                         <i className="fa fa-circle text-danger"></i>Web Design
                         <span className="badge badge-primary float-right">
                           5
                         </span>
-                      </a>
+                      </p>
                     </li>
                     <li>
-                      <a>
+                      <p>
                         <i className="fa fa-circle text-info"></i>Recharge
-                      </a>
+                      </p>
                     </li>
                     <li>
-                      <a>
+                      <p>
                         <i className="fa fa-circle text-dark"></i>Paypal
-                      </a>
+                      </p>
                     </li>
                     <li>
-                      <a>
+                      <p>
                         <i className="fa fa-circle text-primary"></i>Family
-                      </a>
+                      </p>
                     </li>
                   </ul>
                 </div>
@@ -151,13 +151,13 @@ class MailInbox extends React.Component {
                       </label>
                     </div>
                     <div className="btn-group mr-1">
-                      <a className="btn btn-outline-secondary btn-sm hidden-sm">
+                      <p className="btn btn-outline-secondary btn-sm hidden-sm">
                         Refresh
-                      </a>
-                      <a className="btn btn-outline-secondary btn-sm hidden-sm">
+                      </p>
+                      <p className="btn btn-outline-secondary btn-sm hidden-sm">
                         Archive
-                      </a>
-                      <a className="btn btn-outline-secondary btn-sm">Trash</a>
+                      </p>
+                      <p className="btn btn-outline-secondary btn-sm">Trash</p>
                     </div>
                     <div
                       className={
@@ -167,37 +167,37 @@ class MailInbox extends React.Component {
                       <Dropdown className="">
                         <Dropdown.Toggle
                           variant="success"
-                          as="a"
+                          as="p"
                           className="btn btn-outline-secondary btn-sm"
                           id="dropdown-basic"
                         >
                           Tags
                         </Dropdown.Toggle>
                         <Dropdown.Menu as="div" className="dropdown-menu">
-                          <a
+                          <p
                             className="dropdown-item"
                             onClick={() => {
                               this.props.onPressTagDropdown();
                             }}
                           >
                             Tag 1
-                          </a>
-                          <a
+                          </p>
+                          <p
                             className="dropdown-item"
                             onClick={() => {
                               this.props.onPressTagDropdown();
                             }}
                           >
                             Tag 2
-                          </a>
-                          <a
+                          </p>
+                          <p
                             className="dropdown-item"
                             onClick={() => {
                               this.props.onPressTagDropdown();
                             }}
                           >
                             Tag 3
-                          </a>
+                          </p>
                         </Dropdown.Menu>
                       </Dropdown>
                     </div>
@@ -209,14 +209,14 @@ class MailInbox extends React.Component {
                       <Dropdown drop="down" className="">
                         <Dropdown.Toggle
                           variant="success"
-                          as="a"
+                          as="p"
                           className="btn btn-outline-secondary btn-sm"
                           id="dropdown-basic"
                         >
                           More
                         </Dropdown.Toggle>
                         <Dropdown.Menu as="div" className="dropdown-menu">
-                          <a
+                          <p
                             className="dropdown-item"
                             href="#!"
                             onClick={(e) => {
@@ -224,23 +224,23 @@ class MailInbox extends React.Component {
                             }}
                           >
                             Mark as read
-                          </a>
-                          <a
+                          </p>
+                          <p
                             className="dropdown-item"
                             onClick={() => {
                               this.props.onPressMoreDropdown();
                             }}
                           >
                             Mark as unread
-                          </a>
-                          <a
+                          </p>
+                          <p
                             className="dropdown-item"
                             onClick={() => {
                               this.props.onPressMoreDropdown();
                             }}
                           >
                             Spam
-                          </a>
+                          </p>
                           <div
                             role="separator"
                             className="dropdown-divider"
@@ -248,14 +248,14 @@ class MailInbox extends React.Component {
                               this.props.onPressMoreDropdown();
                             }}
                           ></div>
-                          <a
+                          <p
                             className="dropdown-item"
                             onClick={() => {
                               this.props.onPressMoreDropdown();
                             }}
                           >
                             Delete
-                          </a>
+                          </p>
                         </Dropdown.Menu>
                       </Dropdown>
                     </div>
@@ -292,13 +292,13 @@ class MailInbox extends React.Component {
                           />
                           <span></span>
                         </label>
-                        <a className="mail-star active">
+                        <p className="mail-star active">
                           <i className="fa fa-star"></i>
-                        </a>
+                        </p>
                       </div>
                       <div className="mail-detail-right">
                         <h6 className="sub">
-                          <a className="mail-detail-expand">Herman Beck</a>{" "}
+                          <p className="mail-detail-expand">Herman Beck</p>{" "}
                           <span className="badge badge-default mb-0">
                             Marketing
                           </span>
@@ -311,9 +311,9 @@ class MailInbox extends React.Component {
                         <span className="time">23 Jun</span>
                       </div>
                       <div className="hover-action">
-                        <a className="btn btn-warning mr-2">
+                        <p className="btn btn-warning mr-2">
                           <i className="fa fa-archive"></i>
-                        </a>
+                        </p>
                         <button
                           type="button"
                           data-type="confirm"
@@ -334,13 +334,13 @@ class MailInbox extends React.Component {
                           />
                           <span></span>
                         </label>
-                        <a className="mail-star">
+                        <p className="mail-star">
                           <i className="fa fa-star-o"></i>
-                        </a>
+                        </p>
                       </div>
                       <div className="mail-detail-right">
                         <h6 className="sub">
-                          <a className="mail-detail-expand">Mary Adams</a>
+                          <p className="mail-detail-expand">Mary Adams</p>
                         </h6>
                         <p className="dep">
                           <span className="m-r-10">[Support]</span>There are
@@ -352,9 +352,9 @@ class MailInbox extends React.Component {
                         </span>
                       </div>
                       <div className="hover-action">
-                        <a className="btn btn-warning mr-2">
+                        <p className="btn btn-warning mr-2">
                           <i className="fa fa-archive"></i>
-                        </a>
+                        </p>
                         <button
                           type="button"
                           data-type="confirm"
@@ -375,13 +375,13 @@ class MailInbox extends React.Component {
                           />
                           <span></span>
                         </label>
-                        <a className="mail-star">
+                        <p className="mail-star">
                           <i className="fa fa-star-o"></i>
-                        </a>
+                        </p>
                       </div>
                       <div className="mail-detail-right">
                         <h6 className="sub">
-                          <a className="mail-detail-expand">June Lane</a>
+                          <p className="mail-detail-expand">June Lane</p>
                           <span className="badge badge-info">Family</span>
                         </h6>
                         <p className="dep">
@@ -392,9 +392,9 @@ class MailInbox extends React.Component {
                         <span className="time">20 Jun</span>
                       </div>
                       <div className="hover-action">
-                        <a className="btn btn-warning mr-2">
+                        <p className="btn btn-warning mr-2">
                           <i className="fa fa-archive"></i>
-                        </a>
+                        </p>
                         <button
                           type="button"
                           data-type="confirm"
@@ -415,13 +415,13 @@ class MailInbox extends React.Component {
                           />
                           <span></span>
                         </label>
-                        <a className="mail-star">
+                        <p className="mail-star">
                           <i className="fa fa-star-o"></i>
-                        </a>
+                        </p>
                       </div>
                       <div className="mail-detail-right">
                         <h6 className="sub">
-                          <a className="mail-detail-expand">Gary Camara</a>
+                          <p className="mail-detail-expand">Gary Camara</p>
                         </h6>
                         <p className="dep">
                           <span className="m-r-10">[CSS]</span>There are many
@@ -431,9 +431,9 @@ class MailInbox extends React.Component {
                         <span className="time">14 Jun</span>
                       </div>
                       <div className="hover-action">
-                        <a className="btn btn-warning mr-2">
+                        <p className="btn btn-warning mr-2">
                           <i className="fa fa-archive"></i>
-                        </a>
+                        </p>
                         <button
                           type="button"
                           data-type="confirm"
@@ -454,13 +454,13 @@ class MailInbox extends React.Component {
                           />
                           <span></span>
                         </label>
-                        <a className="mail-star">
+                        <p className="mail-star">
                           <i className="fa fa-star-o"></i>
-                        </a>
+                        </p>
                       </div>
                       <div className="mail-detail-right">
                         <h6 className="sub">
-                          <a className="mail-detail-expand">Frank Camly</a>
+                          <p className="mail-detail-expand">Frank Camly</p>
                           <span className="badge badge-danger">
                             Themeforest
                           </span>
@@ -475,9 +475,9 @@ class MailInbox extends React.Component {
                         </span>
                       </div>
                       <div className="hover-action">
-                        <a className="btn btn-warning mr-2">
+                        <p className="btn btn-warning mr-2">
                           <i className="fa fa-archive"></i>
-                        </a>
+                        </p>
                         <button
                           type="button"
                           data-type="confirm"
@@ -498,13 +498,13 @@ class MailInbox extends React.Component {
                           />
                           <span></span>
                         </label>
-                        <a className="mail-star">
+                        <p className="mail-star">
                           <i className="fa fa-star-o"></i>
-                        </a>
+                        </p>
                       </div>
                       <div className="mail-detail-right">
                         <h6 className="sub">
-                          <a className="mail-detail-expand">Gary Camara</a>
+                          <p className="mail-detail-expand">Gary Camara</p>
                           <span className="badge badge-success">Work</span>
                         </h6>
                         <p className="dep">
@@ -515,9 +515,9 @@ class MailInbox extends React.Component {
                         <span className="time">29 May</span>
                       </div>
                       <div className="hover-action">
-                        <a className="btn btn-warning mr-2">
+                        <p className="btn btn-warning mr-2">
                           <i className="fa fa-archive"></i>
-                        </a>
+                        </p>
                         <button
                           type="button"
                           data-type="confirm"
@@ -544,15 +544,15 @@ class MailInbox extends React.Component {
                         </label>
                       </div>
                       <div className="btn-group">
-                        <a className="btn btn-outline-secondary btn-sm hidden-sm">
+                        <p className="btn btn-outline-secondary btn-sm hidden-sm">
                           Refresh
-                        </a>
-                        <a className="btn btn-outline-secondary btn-sm hidden-sm">
+                        </p>
+                        <p className="btn btn-outline-secondary btn-sm hidden-sm">
                           Archive
-                        </a>
-                        <a className="btn btn-outline-secondary btn-sm">
+                        </p>
+                        <p className="btn btn-outline-secondary btn-sm">
                           Trash
-                        </a>
+                        </p>
                       </div>
                       <div className="btn-group show">
                         <button
@@ -563,9 +563,9 @@ class MailInbox extends React.Component {
                           Tags
                         </button>
                         <div className="dropdown-menu show">
-                          <a className="dropdown-item">Tag 1</a>
-                          <a className="dropdown-item">Tag 2</a>
-                          <a className="dropdown-item">Tag 3</a>
+                          <p className="dropdown-item">Tag 1</p>
+                          <p className="dropdown-item">Tag 2</p>
+                          <p className="dropdown-item">Tag 3</p>
                         </div>
                       </div>
                       <div className="btn-group">
@@ -579,21 +579,21 @@ class MailInbox extends React.Component {
                           More
                         </button>
                         <div className="dropdown-menu">
-                          <a className="dropdown-item">Mark as read</a>
-                          <a className="dropdown-item">Mark as unread</a>
-                          <a className="dropdown-item">Spam</a>
+                          <p className="dropdown-item">Mark as read</p>
+                          <p className="dropdown-item">Mark as unread</p>
+                          <p className="dropdown-item">Spam</p>
                           <div
                             role="separator"
                             className="dropdown-divider"
                           ></div>
-                          <a className="dropdown-item">Delete</a>
+                          <p className="dropdown-item">Delete</p>
                         </div>
                       </div>
                     </div>
                     <div className="pull-right ml-auto">
-                      <a className="mail-back btn btn-outline-secondary btn-sm">
+                      <p className="mail-back btn btn-outline-secondary btn-sm">
                         <i className="fa fa-close"></i>
-                      </a>
+                      </p>
                     </div>
                   </div>
                   <div className="detail-header">
@@ -609,9 +609,9 @@ class MailInbox extends React.Component {
                       <div className="media-body">
                         <p className="mb-0">
                           <strong className="text-muted m-r-5">From:</strong>
-                          <a className="text-default">
+                          <p className="text-default">
                             info@thememakker.com
-                          </a>{" "}
+                          </p>{" "}
                           <span className="text-muted text-sm float-right">
                             12:48, 23.06.2018
                           </span>
@@ -625,7 +625,7 @@ class MailInbox extends React.Component {
                         </p>
                         <p className="mb-0">
                           <strong className="text-muted m-r-5">CC:</strong>
-                          <a className="text-default">mail@thememakker.com</a>
+                          <p className="text-default">mail@thememakker.com</p>
                         </p>
                       </div>
                     </div>
@@ -635,7 +635,7 @@ class MailInbox extends React.Component {
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
+                      printer took p galley of type and scrambled it to make p
                       type specimen book. It has survived not only five
                       centuries, but also the leap into electronic typesetting,
                       remaining essentially unchanged.
@@ -643,14 +643,14 @@ class MailInbox extends React.Component {
                     <p>
                       printing and typesetting industry. Lorem Ipsum has been
                       the industry's standard dummy text ever since the 1500s,
-                      when an unknown printer took a galley of type and
+                      when an unknown printer took p galley of type and
                       scrnturies, but also the leap into electronic typesetting,
                       remaining essentially unchanged.
                     </p>
                     <hr />
                     <strong>Click here to</strong>
-                    <a href="appinbox">Reply</a> or
-                    <a href="appinbox">Forward</a>
+                    <p href="appinbox">Reply</p> or
+                    <p href="appinbox">Forward</p>
                   </div>
                 </div>
               </div>

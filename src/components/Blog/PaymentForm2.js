@@ -48,7 +48,7 @@ class PaymentForm2 extends React.Component {
               className="nav nav-pills justify-content-start mb-2"
             >
               <li className="nav-item">
-                <a
+                <p
                   className="nav-link active"
                   href="#!"
                   role="tab"
@@ -59,10 +59,10 @@ class PaymentForm2 extends React.Component {
                   }}
                 >
                   <i className="fa fa-credit-card"></i> Credit Card
-                </a>
+                </p>
               </li>
               <li className="nav-item">
-                <a
+                <p
                   className="nav-link "
                   href="#!"
                   role="tab"
@@ -73,10 +73,10 @@ class PaymentForm2 extends React.Component {
                   }}
                 >
                   <i className="fa fa-paypal"></i> Paypal
-                </a>
+                </p>
               </li>
               <li className="nav-item">
-                <a
+                <p
                   className="nav-link"
                   href="#!"
                   role="tab"
@@ -87,7 +87,7 @@ class PaymentForm2 extends React.Component {
                   }}
                 >
                   <i className="fa fa-university"></i> Bank Transfer
-                </a>
+                </p>
               </li>
             </ul>
             <div className="tab-content">

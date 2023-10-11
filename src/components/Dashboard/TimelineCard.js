@@ -12,9 +12,9 @@ class TimelineCard extends React.Component {
           <h2>Timeline</h2>
           <ul className="header-dropdown">
             <li className="remove">
-              <a role="button" className="boxs-close">
+              <p role="button" className="boxs-close">
                 <i className="fa fa-close"></i>
-              </a>
+              </p>
             </li>
           </ul>
         </div>

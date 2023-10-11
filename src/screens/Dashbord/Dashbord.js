@@ -133,13 +133,13 @@ class Dashbord extends React.Component {
                           className="dropdown-menu dropdown-menu-right"
                         >
                           <li>
-                            <a>Action</a>
+                            <p>Action</p>
                           </li>
                           <li>
-                            <a>Another Action</a>
+                            <p>Another Action</p>
                           </li>
                           <li>
-                            <a>Something else</a>
+                            <p>Something else</p>
                           </li>
                         </Dropdown.Menu>
                       </Dropdown.Toggle>
@@ -171,13 +171,13 @@ class Dashbord extends React.Component {
                           className="dropdown-menu dropdown-menu-right"
                         >
                           <li>
-                            <a>Action</a>
+                            <p>Action</p>
                           </li>
                           <li>
-                            <a>Another Action</a>
+                            <p>Another Action</p>
                           </li>
                           <li>
-                            <a>Something else</a>
+                            <p>Something else</p>
                           </li>
                         </Dropdown.Menu>
                       </Dropdown.Toggle>
@@ -239,13 +239,13 @@ class Dashbord extends React.Component {
                           className="dropdown-menu dropdown-menu-right"
                         >
                           <li>
-                            <a>Action</a>
+                            <p>Action</p>
                           </li>
                           <li>
-                            <a>Another Action</a>
+                            <p>Another Action</p>
                           </li>
                           <li>
-                            <a>Something else</a>
+                            <p>Something else</p>
                           </li>
                         </Dropdown.Menu>
                       </Dropdown.Toggle>
@@ -367,26 +367,26 @@ class Dashbord extends React.Component {
                   </div>
                   <div className="body">
                     <div className="list-group list-widget">
-                      <a className="list-group-item">
+                      <p className="list-group-item">
                         <span className="badge badge-success">654</span>
                         <i className="fa fa-envelope text-muted"></i>Inbox
-                      </a>
-                      <a className="list-group-item">
+                      </p>
+                      <p className="list-group-item">
                         <span className="badge badge-info">364</span>
                         <i className="fa fa-eye text-muted"></i> Profile visits
-                      </a>
-                      <a className="list-group-item">
+                      </p>
+                      <p className="list-group-item">
                         <span className="badge badge-warning">19</span>
                         <i className="fa fa-bookmark text-muted"></i> Bookmarks
-                      </a>
-                      <a className="list-group-item">
+                      </p>
+                      <p className="list-group-item">
                         <span className="badge badge-warning">12</span>
                         <i className="fa fa-phone text-muted"></i> Call
-                      </a>
-                      <a className="list-group-item">
+                      </p>
+                      <p className="list-group-item">
                         <span className="badge badge-danger">54</span>
                         <i className="fa fa-comments-o text-muted"></i> Messages
-                      </a>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -405,30 +405,30 @@ class Dashbord extends React.Component {
                       date-is="20-04-2018 - Today"
                     >
                       <h5>
-                        Hello, 'Im a single div responsive timeline without
+                        Hello, 'Im p single div responsive timeline without
                         media Queries!
                       </h5>
                       <span>
-                        <a>Elisse Joson</a> San Francisco, CA
+                        <p>Elisse Joson</p> San Francisco, CA
                       </span>
                       <div className="msg">
                         <p>
-                          I'm speaking with myself, number one, because I have a
-                          very good brain and I've said a lot of things. I write
+                          I'm speaking with myself, number one, because I have p
+                          very good brain and I've said p lot of things. I write
                           the best placeholder text, and I'm the biggest
                           developer on the web card she has is the Lorem card.
                         </p>
-                        <a className="m-r-20">
+                        <p className="m-r-20">
                           <i className="icon-heart"></i> Like
-                        </a>
-                        <a
+                        </p>
+                        <p
                           role="button"
                           data-toggle="collapse"
                           aria-expanded="false"
                           aria-controls="collapseExample"
                         >
                           <i className="icon-bubbles"></i> Comment
-                        </a>
+                        </p>
                         <div className="collapse m-t-10" id="collapseExample">
                           <div className="well">
                             <form>
@@ -454,12 +454,12 @@ class Dashbord extends React.Component {
                     >
                       <h5>Oeehhh, that's awesome.. Me too!</h5>
                       <span>
-                        <a title="">Katherine Lumaad</a> Oakland, CA
+                        <p title="">Katherine Lumaad</p> Oakland, CA
                       </span>
                       <div className="msg">
                         <p>
-                          I'm speaking with myself, number one, because I have a
-                          very good brain and I've said a lot of things. on the
+                          I'm speaking with myself, number one, because I have p
+                          very good brain and I've said p lot of things. on the
                           web by far... While that's mock-ups and this is
                           politics, are they really so different? I think the
                           only card she has is the Lorem card.
@@ -476,17 +476,17 @@ class Dashbord extends React.Component {
                             alt="Awesome Image"
                           />
                         </div>
-                        <a className="m-r-20">
+                        <p className="m-r-20">
                           <i className="icon-heart"></i> Like
-                        </a>
-                        <a
+                        </p>
+                        <p
                           role="button"
                           data-toggle="collapse"
                           aria-expanded="false"
                           aria-controls="collapseExample1"
                         >
                           <i className="icon-bubbles"></i> Comment
-                        </a>
+                        </p>
                         <div className="collapse m-t-10" id="collapseExample1">
                           <div className="well">
                             <form>
@@ -512,27 +512,27 @@ class Dashbord extends React.Component {
                         Larger Pizza
                       </h5>
                       <span>
-                        <a title="">Gary Camara</a> San Francisco, CA
+                        <p title="">Gary Camara</p> San Francisco, CA
                       </span>
                       <div className="msg">
                         <p>
-                          I'm speaking with myself, number one, because I have a
-                          very good brain and I've said a lot of things. I write
+                          I'm speaking with myself, number one, because I have p
+                          very good brain and I've said p lot of things. I write
                           the best placeholder text, and I'm the biggest
                           developer on the web by far... While that's mock-ups
                           and this is politics, is the Lorem card.
                         </p>
-                        <a className="m-r-20">
+                        <p className="m-r-20">
                           <i className="icon-heart"></i> Like
-                        </a>
-                        <a
+                        </p>
+                        <p
                           role="button"
                           data-toggle="collapse"
                           aria-expanded="false"
                           aria-controls="collapseExample2"
                         >
                           <i className="icon-bubbles"></i> Comment
-                        </a>
+                        </p>
                         <div className="collapse m-t-10" id="collapseExample2">
                           <div className="well">
                             <form>

@@ -47,7 +47,7 @@ class BlogListCard extends React.Component {
                 />
             </div>
             <h3>
-              <a href="blogdetails">{HeaderText}</a>
+              <p href="blogdetails">{HeaderText}</p>
             </h3>
             <div dangerouslySetInnerHTML={{ __html: Details }} />
           </div>
@@ -91,7 +91,7 @@ class BlogListCard extends React.Component {
             )}
             <ul className="stats">
               <li>
-                <a
+                <p
                 // onClick={}
                 >
                   <div>{selectedIndustry}</div>
@@ -100,13 +100,13 @@ class BlogListCard extends React.Component {
                   
                   
                   
-                </a>
+                </p>
               </li>
               {/* <li>
-              <a className="icon-heart">28</a>
+              <p className="icon-heart">28</p>
             </li>
             <li>
-              <a className="icon-bubbles">128</a>
+              <p className="icon-bubbles">128</p>
             </li> */}
             </ul>
           </div>

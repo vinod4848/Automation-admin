@@ -28,14 +28,14 @@ class BlogAdsCard extends React.Component {
                 ? RefLink.map((data, i) => {
                     return (
                       <li key={"fihgi" + i}>
-                        <a
+                        <p
                           href="#!"
                           onClick={(e) => {
                             e.preventDefault();
                           }}
                         >
                           {data.name}
-                        </a>
+                        </p>
                       </li>
                     );
                   })
@@ -68,9 +68,9 @@ class BlogAdsCard extends React.Component {
               {ImageList.map((data, i) => {
                 return (
                   <li key={"imagesdd" + i}>
-                    <a>
+                    <p>
                       <img src={data.ImageUrl} alt="image description" />
-                    </a>
+                    </p>
                   </li>
                 );
               })}

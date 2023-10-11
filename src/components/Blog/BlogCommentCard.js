@@ -27,10 +27,10 @@ class BlogCommentCard extends React.Component {
                         <p>{data.comment}</p>
                         <ul className="list-inline">
                           <li>
-                            <a>{data.Date}</a>
+                            <p>{data.Date}</p>
                           </li>
                           <li>
-                            <a>Reply</a>
+                            <p>Reply</p>
                           </li>
                         </ul>
                       </div>

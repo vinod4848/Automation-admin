@@ -46,12 +46,12 @@ class ProductOrderList extends React.Component {
                       </span>
                     </td>
                     <td>
-                      <a className="btn btn-outline-secondary mr-1">
+                      <p className="btn btn-outline-secondary mr-1">
                         <i className="icon-pencil"></i>
-                      </a>
-                      <a className="btn btn-outline-secondary">
+                      </p>
+                      <p className="btn btn-outline-secondary">
                         <i className="icon-trash"></i>
-                      </a>
+                      </p>
                     </td>
                   </tr>
                   <tr>
@@ -71,12 +71,12 @@ class ProductOrderList extends React.Component {
                       </span>
                     </td>
                     <td>
-                      <a className="btn btn-outline-secondary mr-1">
+                      <p className="btn btn-outline-secondary mr-1">
                         <i className="icon-pencil"></i>
-                      </a>
-                      <a className="btn btn-outline-secondary">
+                      </p>
+                      <p className="btn btn-outline-secondary">
                         <i className="icon-trash"></i>
-                      </a>
+                      </p>
                     </td>
                   </tr>
                   <tr>
@@ -96,12 +96,12 @@ class ProductOrderList extends React.Component {
                       </span>
                     </td>
                     <td>
-                      <a className="btn btn-outline-secondary mr-1">
+                      <p className="btn btn-outline-secondary mr-1">
                         <i className="icon-pencil"></i>
-                      </a>
-                      <a className="btn btn-outline-secondary">
+                      </p>
+                      <p className="btn btn-outline-secondary">
                         <i className="icon-trash"></i>
-                      </a>
+                      </p>
                     </td>
                   </tr>
                   <tr>
@@ -121,12 +121,12 @@ class ProductOrderList extends React.Component {
                       </span>
                     </td>
                     <td>
-                      <a className="btn btn-outline-secondary mr-1">
+                      <p className="btn btn-outline-secondary mr-1">
                         <i className="icon-pencil"></i>
-                      </a>
-                      <a className="btn btn-outline-secondary">
+                      </p>
+                      <p className="btn btn-outline-secondary">
                         <i className="icon-trash"></i>
-                      </a>
+                      </p>
                     </td>
                   </tr>
                 </tbody>

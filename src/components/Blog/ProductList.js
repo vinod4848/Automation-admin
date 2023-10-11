@@ -51,12 +51,12 @@ class ProductList extends React.Component {
                       <span className="col-green">In Stock</span>
                     </td>
                     <td>
-                      <a className="btn btn-outline-secondary mr-1">
+                      <p className="btn btn-outline-secondary mr-1">
                         <i className="icon-pencil"></i>
-                      </a>
-                      <a className="btn btn-outline-danger">
+                      </p>
+                      <p className="btn btn-outline-danger">
                         <i className="icon-trash"></i>
-                      </a>
+                      </p>
                     </td>
                   </tr>
                   <tr>
@@ -68,7 +68,7 @@ class ProductList extends React.Component {
                     </td>
                     <td>
                       <span className="text-muted">
-                        It is a long established will be distracted
+                        It is p long established will be distracted
                       </span>
                     </td>
                     <td>$15.00</td>
@@ -76,12 +76,12 @@ class ProductList extends React.Component {
                       <span className="col-amber">Low Stock</span>
                     </td>
                     <td>
-                      <a className="btn btn-outline-secondary mr-1">
+                      <p className="btn btn-outline-secondary mr-1">
                         <i className="icon-pencil"></i>
-                      </a>
-                      <a className="btn btn-outline-danger">
+                      </p>
+                      <p className="btn btn-outline-danger">
                         <i className="icon-trash"></i>
-                      </a>
+                      </p>
                     </td>
                   </tr>
                   <tr>
@@ -101,12 +101,12 @@ class ProductList extends React.Component {
                       <span className="col-amber">Low Stock</span>
                     </td>
                     <td>
-                      <a className="btn btn-outline-secondary mr-1">
+                      <p className="btn btn-outline-secondary mr-1">
                         <i className="icon-pencil"></i>
-                      </a>
-                      <a className="btn btn-outline-danger">
+                      </p>
+                      <p className="btn btn-outline-danger">
                         <i className="icon-trash"></i>
-                      </a>
+                      </p>
                     </td>
                   </tr>
                   <tr>
@@ -118,7 +118,7 @@ class ProductList extends React.Component {
                     </td>
                     <td>
                       <span className="text-muted">
-                        It is a long established fact that a distracted
+                        It is p long established fact that p distracted
                       </span>
                     </td>
                     <td>$23.00</td>
@@ -126,12 +126,12 @@ class ProductList extends React.Component {
                       <span className="col-red">Out Of Stock</span>
                     </td>
                     <td>
-                      <a className="btn btn-outline-secondary mr-1">
+                      <p className="btn btn-outline-secondary mr-1">
                         <i className="icon-pencil"></i>
-                      </a>
-                      <a className="btn btn-outline-danger">
+                      </p>
+                      <p className="btn btn-outline-danger">
                         <i className="icon-trash"></i>
-                      </a>
+                      </p>
                     </td>
                   </tr>
                 </tbody>
@@ -148,28 +148,33 @@ class ProductList extends React.Component {
                     <img
                       className={`img-fluid ${!tab[0] && "d-none"}`}
                       src={image1}
+                      alt=""
                     />
                     <img
                       className={`img-fluid ${!tab[1] && "d-none"}`}
                       src={require("../../assets/images/ecommerce/2.png")}
+                      alt=""
                     />
                     <img
                       className={`img-fluid ${!tab[2] && "d-none"}`}
                       src={require("../../assets/images/ecommerce/3.png")}
+                      alt=""
                     />
                     <img
                       className={`img-fluid ${!tab[3] && "d-none"}`}
                       src={require("../../assets/images/ecommerce/4.png")}
+                      alt=""
                     />
                     <img
                       className={`img-fluid ${!tab[4] && "d-none"}`}
                       src={require("../../assets/images/ecommerce/5.png")}
+                      alt=""
                     />
                   </div>
                 </div>
                 <ul className="preview-thumbnail nav nav-tabs">
                   <li className="nav-item">
-                    <a
+                    <p
                       className={`nav-link ${tab[0] && "active"}`}
                       data-toggle="tab"
                       onClick={() => {
@@ -182,11 +187,12 @@ class ProductList extends React.Component {
                         className="img-fluid"
                         src={require("../../assets/images/ecommerce/1.png")}
                         style={{ height: 50 }}
+                        alt=""
                       />
-                    </a>
+                    </p>
                   </li>
                   <li className="nav-item">
-                    <a
+                    <p
                       className={`nav-link ${tab[1] && "active"}`}
                       data-toggle="tab"
                       onClick={() => {
@@ -199,11 +205,12 @@ class ProductList extends React.Component {
                         className="img-fluid"
                         src={require("../../assets/images/ecommerce/2.png")}
                         style={{ height: 50 }}
+                        alt=""
                       />
-                    </a>
+                    </p>
                   </li>
                   <li className="nav-item">
-                    <a
+                    <p
                       className={`nav-link ${tab[2] && "active"}`}
                       data-toggle="tab"
                       onClick={() => {
@@ -216,11 +223,12 @@ class ProductList extends React.Component {
                         className="img-fluid"
                         src={require("../../assets/images/ecommerce/3.png")}
                         style={{ height: 50 }}
+                        alt=""
                       />
-                    </a>
+                    </p>
                   </li>
                   <li className="nav-item">
-                    <a
+                    <p
                       className={`nav-link ${tab[3] && "active"}`}
                       data-toggle="tab"
                       onClick={() => {
@@ -233,11 +241,13 @@ class ProductList extends React.Component {
                         className="img-fluid"
                         src={require("../../assets/images/ecommerce/4.png")}
                         style={{ height: 50 }}
+                        alt=""
                       />
-                    </a>
+
+                    </p>
                   </li>
                   <li className="nav-item">
-                    <a
+                    <p
                       className={`nav-link ${tab[4] && "active"}`}
                       data-toggle="tab"
                       onClick={() => {
@@ -250,8 +260,10 @@ class ProductList extends React.Component {
                         className="img-fluid"
                         src={require("../../assets/images/ecommerce/5.png")}
                         style={{ height: 50 }}
+                        alt=""
                       />
-                    </a>
+
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -275,7 +287,7 @@ class ProductList extends React.Component {
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
+                  printer took p galley of type and scrambled it to make p type
                   specimen book.
                 </p>
                 <p className="vote">

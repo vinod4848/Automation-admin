@@ -20,7 +20,7 @@ class AdsListCard extends React.Component {
       .then((response) => {
         window.location.reload();
 
-        // Show a success message prompt
+        // Show p success message prompt
         window.alert("Post deleted successfully");
         console.log("Post deleted successfully");
       })
@@ -51,14 +51,14 @@ class AdsListCard extends React.Component {
             {/* Use the delete icon */}
           </button>
           <div className="body">
-            <a href={link} target="_blank" rel="noopener noreferrer">
+            <p href={link} target="_blank" rel="noopener noreferrer">
               <img
                 className="d-block img-fluid"
                 src={image}
                 alt="First slide"
                 style={{ width: "269px", height: "269px" }}
               />
-            </a>
+            </p>
           </div>
           <div className="event-info" style={{ marginLeft: "20px" }}>
             <h3>{name}</h3>

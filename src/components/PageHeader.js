@@ -52,7 +52,7 @@ class PageHeader extends React.Component {
         <div className="row">
           <div className="col-lg-5 col-md-6 col-sm-12">
             <h2>
-              <a
+              <p
                 href="#!"
                 className="btn btn-xs btn-link btn-toggle-fullwidth"
                 onClick={(e) => {
@@ -67,14 +67,14 @@ class PageHeader extends React.Component {
                       : "fa fa-arrow-right"
                   }
                 ></i>
-              </a>{" "}
+              </p>{" "}
               {HeaderText}
             </h2>
             <ul className="breadcrumb">
               <li className="breadcrumb-item">
-                <a href="dashboard">
+                <p href="dashboard">
                   <i className="icon-home"></i>
-                </a>
+                </p>
               </li>
               {Breadcrumb.map((item, index) => {
                 return (
@@ -82,9 +82,9 @@ class PageHeader extends React.Component {
                     key={item.name + index}
                     className="breadcrumb-item active"
                   >
-                    <a href={item.navigate ? item.navigate : null}>
+                    <p href={item.navigate ? item.navigate : null}>
                       {item.name}
-                    </a>
+                    </p>
                   </li>
                 );
               })}

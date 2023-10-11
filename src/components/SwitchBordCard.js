@@ -31,10 +31,10 @@ class SwitchBordCard extends React.Component {
                   className="dropdown-menu dropdown-menu-right"
                 >
                   <li>
-                    <a onClick={onPressAllOnLight}>All On</a>
+                    <p onClick={onPressAllOnLight}>All On</p>
                   </li>
                   <li>
-                    <a onClick={onPressAllOffLight}>All Off</a>
+                    <p onClick={onPressAllOffLight}>All Off</p>
                   </li>
                 </Dropdown.Menu>
               </Dropdown.Toggle>
@@ -54,7 +54,7 @@ class SwitchBordCard extends React.Component {
                       }
                     >
                       {Button.title}
-                      <a onClick={() => OnPressSwitch(index)}>
+                      <p onClick={() => OnPressSwitch(index)}>
                         <span
                           className={
                             IsSwitch[index] === true && !Button.NotConnected
@@ -73,7 +73,7 @@ class SwitchBordCard extends React.Component {
                         >
                           On
                         </span>
-                      </a>
+                      </p>
                       <span
                         className={
                           Button.NotConnected

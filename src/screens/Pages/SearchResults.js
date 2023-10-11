@@ -51,34 +51,34 @@ class SearchResult extends React.Component {
                   <div className="body">
                     <ul className="nav nav-tabs-new m-b-20">
                       <li className="nav-item mr-1">
-                        <a
+                        <p
                           className={`nav-link ${tab[0] && "active"}`}
                           onClick={() => {
                             this.setState({ tab: [true, false, false] });
                           }}
                         >
                           Web
-                        </a>
+                        </p>
                       </li>
                       <li className="nav-item mr-1">
-                        <a
+                        <p
                           className={`nav-link ${tab[1] && "active"}`}
                           onClick={() => {
                             this.setState({ tab: [false, true, false] });
                           }}
                         >
                           Images
-                        </a>
+                        </p>
                       </li>
                       <li className="nav-item">
-                        <a
+                        <p
                           className={`nav-link ${tab[2] && "active"}`}
                           onClick={() => {
                             this.setState({ tab: [false, false, true] });
                           }}
                         >
                           Videos
-                        </a>
+                        </p>
                       </li>
                     </ul>
                     <p className="m-b-0">
@@ -91,10 +91,10 @@ class SearchResult extends React.Component {
                   <div className={`tab-pane card ${tab[0] && "active"}`}>
                     <div className="body">
                       <h6 className="mb-0">
-                        <a target="_blank">
+                        <p target="_blank">
                           sQuare - Bootstrap 4 Light &amp; Dark Admin with Free
                           Angular5 + UI Kit
-                        </a>
+                        </p>
                       </h6>
                       <small>
                         https://themeforest.net/user/wraptheme/portfolio
@@ -106,19 +106,19 @@ class SearchResult extends React.Component {
                         Standards. Is fully responsive and clean on every device
                         and every browser.
                       </p>
-                      <a className="m-r-20" target="_blank">
+                      <p className="m-r-20" target="_blank">
                         AdminCC
-                      </a>
-                      <a className="m-r-20" target="_blank">
+                      </p>
+                      <p className="m-r-20" target="_blank">
                         Swift Admin
-                      </a>
+                      </p>
                     </div>
                     <hr />
                     <div className="body">
                       <h6 className="mb-0">
-                        <a target="_blank">
+                        <p target="_blank">
                           InfiniO - Bootstrap 4 Admin Dashboard Template{" "}
-                        </a>
+                        </p>
                       </h6>
                       <small>
                         https://themeforest.net/user/wraptheme/portfolio
@@ -133,19 +133,19 @@ class SearchResult extends React.Component {
                         easy and fast for you and aims to help you implement
                         your idea to real time.
                       </p>
-                      <a className="m-r-20" target="_blank">
+                      <p className="m-r-20" target="_blank">
                         Oakleaf Admin
-                      </a>
-                      <a className="m-r-20" target="_blank">
+                      </p>
+                      <p className="m-r-20" target="_blank">
                         sQuare
-                      </a>
+                      </p>
                     </div>
                     <hr />
                     <div className="body">
                       <h6 className="mb-0">
-                        <a target="_blank">
+                        <p target="_blank">
                           Compass - The ultimate Bootstrap 4 Admin Dashboard{" "}
-                        </a>
+                        </p>
                       </h6>
                       <small>
                         https://themeforest.net/user/wraptheme/portfolio
@@ -157,22 +157,22 @@ class SearchResult extends React.Component {
                         Standards. Is fully responsive and clean on every device
                         and every browser.
                       </p>
-                      <a className="m-r-20" target="_blank">
+                      <p className="m-r-20" target="_blank">
                         AdminCC
-                      </a>
-                      <a className="m-r-20" target="_blank">
+                      </p>
+                      <p className="m-r-20" target="_blank">
                         Oakleaf Admin
-                      </a>
-                      <a className="m-r-20" target="_blank">
+                      </p>
+                      <p className="m-r-20" target="_blank">
                         sQuare
-                      </a>
+                      </p>
                     </div>
                     <hr />
                     <div className="body">
                       <h6 className="mb-0">
-                        <a target="_blank">
+                        <p target="_blank">
                           Alpino - Bootstrap 4 Admin Dashboard Template
-                        </a>
+                        </p>
                       </h6>
                       <small>
                         https://themeforest.net/user/wraptheme/portfolio
@@ -183,32 +183,32 @@ class SearchResult extends React.Component {
                         Summermnote Editor, Image Cropping Tool, Easy to access
                         Menu Styles
                       </p>
-                      <a className="m-r-20" target="_blank">
+                      <p className="m-r-20" target="_blank">
                         Oakleaf Admin
-                      </a>
-                      <a className="m-r-20" target="_blank">
+                      </p>
+                      <p className="m-r-20" target="_blank">
                         sQuare
-                      </a>
-                      <a className="m-r-20" target="_blank">
+                      </p>
+                      <p className="m-r-20" target="_blank">
                         AdminCC
-                      </a>
+                      </p>
                     </div>
                     <hr />
                     <ul className="body pagination pagination-primary">
                       <li className="page-item">
-                        <a className="page-link">Previous</a>
+                        <p className="page-link">Previous</p>
                       </li>
                       <li className="page-item active">
-                        <a className="page-link">1</a>
+                        <p className="page-link">1</p>
                       </li>
                       <li className="page-item">
-                        <a className="page-link">2</a>
+                        <p className="page-link">2</p>
                       </li>
                       <li className="page-item">
-                        <a className="page-link">3</a>
+                        <p className="page-link">3</p>
                       </li>
                       <li className="page-item">
-                        <a className="page-link">Next</a>
+                        <p className="page-link">Next</p>
                       </li>
                     </ul>
                   </div>

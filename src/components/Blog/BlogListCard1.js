@@ -10,28 +10,28 @@ class BlogListCard1 extends React.Component {
         <div className="body">
           <div className="content">
             <div className="actions_sidebar">
-              <a>
+              <p>
                 <i className="icon-share"></i>
-              </a>
-              <a>
+              </p>
+              <p>
                 <i className="icon-heart"></i>
                 <span>5</span>
-              </a>
-              <a>
+              </p>
+              <p>
                 <i className="icon-bubble"></i>
                 <span>8</span>
-              </a>
+              </p>
             </div>
             <h4 className="title">All photographs are accurate</h4>
             <p className="date">
               <small>Jun 15, 2018</small>
             </p>
             <p className="text">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
+              It is p long established fact that p reader will be distracted by
+              the readable content of p page when looking at its layout. The
+              point of using Lorem Ipsum is that it has p more-or-less normal
             </p>
-            <a className="btn btn-primary">READ MORE</a>
+            <p className="btn btn-primary">READ MORE</p>
           </div>
         </div>
       </div>

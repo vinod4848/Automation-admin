@@ -15,14 +15,14 @@ class CustomerRating extends React.Component {
           <ul className="row list-unstyled c_review">
             <li className="col-12">
               <div className="avatar">
-                <a>
+                <p>
                   <img
                     alt="user"
                     className="rounded"
                     src={avatar2}
                     width="60"
                   />
-                </a>
+                </p>
               </div>
               <div className="comment-action">
                 <h6 className="c_name">Hossein Shams</h6>
@@ -32,21 +32,21 @@ class CustomerRating extends React.Component {
                 </p>
                 <div className="badge badge-info">iPhone 8</div>
                 <span className="m-l-10">
-                  <a>
+                  <p>
                     <i className="icon-star text-warning"></i>
-                  </a>
-                  <a>
+                  </p>
+                  <p>
                     <i className="icon-star text-warning"></i>
-                  </a>
-                  <a>
+                  </p>
+                  <p>
                     <i className="icon-star text-warning"></i>
-                  </a>
-                  <a>
+                  </p>
+                  <p>
                     <i className="icon-star text-warning"></i>
-                  </a>
-                  <a>
+                  </p>
+                  <p>
                     <i className="icon-star text-warning"></i>
-                  </a>
+                  </p>
                 </span>
                 <small className="comment-date float-sm-right">
                   Dec 21, 2017
@@ -55,38 +55,38 @@ class CustomerRating extends React.Component {
             </li>
             <li className="col-12">
               <div className="avatar">
-                <a>
+                <p>
                   <img
                     alt="user"
                     className="rounded"
                     src={avatar3}
                     width="60"
                   />
-                </a>
+                </p>
               </div>
               <div className="comment-action">
                 <h6 className="c_name">Tim Hank</h6>
                 <p className="c_msg m-b-0">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout
+                  It is p long established fact that p reader will be distracted
+                  by the readable content of p page when looking at its layout
                 </p>
                 <div className="badge badge-info">Nokia 8</div>
                 <span className="m-l-10">
-                  <a>
+                  <p>
                     <i className="icon-star text-warning"></i>
-                  </a>
-                  <a>
+                  </p>
+                  <p>
                     <i className="icon-star text-warning"></i>
-                  </a>
-                  <a>
+                  </p>
+                  <p>
                     <i className="zmdi zmdi-star-outline text-muted"></i>
-                  </a>
-                  <a>
+                  </p>
+                  <p>
                     <i className="zmdi zmdi-star-outline text-muted"></i>
-                  </a>
-                  <a>
+                  </p>
+                  <p>
                     <i className="zmdi zmdi-star-outline text-muted"></i>
-                  </a>
+                  </p>
                 </span>
                 <small className="comment-date float-sm-right">
                   Dec 18, 2017
@@ -95,14 +95,14 @@ class CustomerRating extends React.Component {
             </li>
             <li className="col-12">
               <div className="avatar">
-                <a>
+                <p>
                   <img
                     alt="user"
                     className="rounded"
                     src={avatar5}
                     width="60"
                   />
-                </a>
+                </p>
               </div>
               <div className="comment-action">
                 <h6 className="c_name">Gary Camara</h6>
@@ -112,21 +112,21 @@ class CustomerRating extends React.Component {
                 </p>
                 <div className="badge badge-info">HTC U11</div>
                 <span className="m-l-10">
-                  <a>
+                  <p>
                     <i className="icon-star text-warning"></i>
-                  </a>
-                  <a>
+                  </p>
+                  <p>
                     <i className="icon-star text-warning"></i>
-                  </a>
-                  <a>
+                  </p>
+                  <p>
                     <i className="icon-star text-warning"></i>
-                  </a>
-                  <a>
+                  </p>
+                  <p>
                     <i className="icon-star text-warning"></i>
-                  </a>
-                  <a>
+                  </p>
+                  <p>
                     <i className="zmdi zmdi-star-outline text-muted"></i>
-                  </a>
+                  </p>
                 </span>
                 <small className="comment-date float-sm-right">
                   Dec 13, 2017

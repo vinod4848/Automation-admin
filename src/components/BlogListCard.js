@@ -16,23 +16,23 @@ class BlogListCard extends React.Component {
             />
           </div>
           <h3>
-            <a href="blogdetails">{HeaderText}</a>
+            <button href="blogdetails">{HeaderText}</button>
           </h3>
           <p>{Details}</p>
         </div>
         <div className="footer">
           <div className="actions">
-            <a className="btn btn-outline-secondary">Continue Reading</a>
+            <button className="btn btn-outline-secondary">Continue Reading</button>
           </div>
           <ul className="stats">
             <li>
-              <a>General</a>
+              <button>General</button>
             </li>
             <li>
-              <a className="icon-heart">28</a>
+              <button className="icon-heart">28</button>
             </li>
             <li>
-              <a className="icon-bubbles">128</a>
+              <button className="icon-bubbles">128</button>
             </li>
           </ul>
         </div>

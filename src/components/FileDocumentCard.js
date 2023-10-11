@@ -15,7 +15,7 @@ class FileDocumentCard extends React.Component {
       <div className="col-lg-3 col-md-4 col-sm-12">
         <div className="card">
           <div className="file">
-            <a>
+            <p>
               <div className="hover">
                 <button type="button" className="btn btn-icon btn-danger">
                   <i className="fa fa-trash"></i>
@@ -38,7 +38,7 @@ class FileDocumentCard extends React.Component {
                   <span className="date text-muted">{DocumentDate}</span>
                 </small>
               </div>
-            </a>
+            </p>
           </div>
         </div>
       </div>

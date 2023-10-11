@@ -37,26 +37,26 @@ class InvoicesV2 extends React.Component {
                     <h2>Single Invoice</h2>
                     <ul className="header-dropdown">
                       <li className="dropdown">
-                        <a
+                        <p
                           aria-expanded="false"
                           aria-haspopup="true"
                           className="dropdown-toggle"
                           data-toggle="dropdown"
                           role="button"
-                        ></a>
+                        ></p>
                         <ul className="dropdown-menu dropdown-menu-right">
                           <li>
-                            <a>Print Invoices</a>
+                            <p>Print Invoices</p>
                           </li>
                           <li className="divider" role="presentation"></li>
                           <li>
-                            <a>Export to XLS</a>
+                            <p>Export to XLS</p>
                           </li>
                           <li>
-                            <a>Export to CSV</a>
+                            <p>Export to CSV</p>
                           </li>
                           <li>
-                            <a>Export to XML</a>
+                            <p>Export to XML</p>
                           </li>
                         </ul>
                       </li>
@@ -69,7 +69,7 @@ class InvoicesV2 extends React.Component {
                     </h3>
                     <ul className="nav nav-tabs-new2">
                       <li className="nav-item inlineblock">
-                        <a
+                        <p
                           className={`nav-link ${!tab && "active"}`}
                           fragment="details"
                           onClick={() => {
@@ -77,10 +77,10 @@ class InvoicesV2 extends React.Component {
                           }}
                         >
                           Details
-                        </a>
+                        </p>
                       </li>
                       <li className="nav-item inlineblock">
-                        <a
+                        <p
                           className={`nav-link ${tab && "active"}`}
                           fragment="history"
                           onClick={() => {
@@ -88,7 +88,7 @@ class InvoicesV2 extends React.Component {
                           }}
                         >
                           History
-                        </a>
+                        </p>
                       </li>
                     </ul>
                     <div className="tab-content">

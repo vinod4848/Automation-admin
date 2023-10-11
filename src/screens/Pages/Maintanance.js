@@ -18,25 +18,25 @@ class Maintanance extends React.Component {
                     Sorry for the inconvenience
                     <br /> but we’re performing some maintenance at the moment.
                     <br /> If you need to you can always
-                    <a href="mailto:#">contact us</a>, otherwise we’ll be back
+                    <p href="mailto:#">contact us</p>, otherwise we’ll be back
                     online shortly!
                   </p>
                   <p>— The Team</p>
                 </div>
               </article>
               <div className="margin-top-30">
-                <a
+                <p
                   className="btn btn-default"
                   onClick={() => {
                     this.props.history.push("projectslist");
                   }}
                 >
                   <i className="fa fa-arrow-left"></i>&nbsp;<span>Go Back</span>
-                </a>
+                </p>
                 &nbsp;
-                <a className="btn btn-info" href="dashboard">
+                <p className="btn btn-info" href="dashboard">
                   <i className="fa fa-home"></i>&nbsp;<span>Home</span>
-                </a>
+                </p>
               </div>
             </div>
           </div>

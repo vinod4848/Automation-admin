@@ -212,7 +212,7 @@ class NavbarMenu extends React.Component {
             </div>
 
             <div className="navbar-brand">
-              <a href="dashboard">
+              <p href="dashboard">
                 <img
                   src={
                     document.body.classList.contains("full-dark")
@@ -222,7 +222,7 @@ class NavbarMenu extends React.Component {
                   alt="Lucid Logo"
                   className="img-responsive logo"
                 />
-              </a>
+              </p>
             </div>
 
             <div className="navbar-right">
@@ -240,38 +240,38 @@ class NavbarMenu extends React.Component {
               <div id="navbar-menu">
                 <ul className="nav navbar-nav">
                   {/* <li>
-                    <a
+                    <p
                       href="filedocuments"
                       className="icon-menu d-none d-sm-block d-md-none d-lg-block"
                     >
                       <i className="fa fa-folder-open-o"></i>
-                    </a>
+                    </p>
                   </li>
                   <li>
-                    <a
+                    <p
                       href="appcalendar"
                       className="icon-menu d-none d-sm-block d-md-none d-lg-block"
                     >
                       <i className="icon-calendar"></i>
-                    </a>
+                    </p>
                   </li>
                   <li>
-                    <a href="appchat" className="icon-menu d-none d-sm-block">
+                    <p href="appchat" className="icon-menu d-none d-sm-block">
                       <i className="icon-bubbles"></i>
-                    </a>
+                    </p>
                   </li>
                   <li>
-                    <a href="appinbox" className="icon-menu d-none d-sm-block">
+                    <p href="appinbox" className="icon-menu d-none d-sm-block">
                       <i className="icon-envelope"></i>
                       <span className="notification-dot"></span>
-                    </a>
+                    </p>
                   </li> */}
                   <li
                     className={
                       toggleNotification ? "show dropdown" : "dropdown"
                     }
                   >
-                    <a
+                    <p
                       href="#!"
                       className="dropdown-toggle icon-menu"
                       data-toggle="dropdown"
@@ -282,7 +282,7 @@ class NavbarMenu extends React.Component {
                     >
                       <i className="icon-bell"></i>
                       <span className="notification-dot"></span>
-                    </a>
+                    </p>
                     <ul
                       className={
                         toggleNotification
@@ -364,7 +364,7 @@ class NavbarMenu extends React.Component {
                   {/* <li
                     className={toggleEqualizer ? "show dropdown" : "dropdown"}
                   >
-                    <a
+                    <p
                       href="#!"
                       className="dropdown-toggle icon-menu"
                       data-toggle="dropdown"
@@ -374,7 +374,7 @@ class NavbarMenu extends React.Component {
                       }}
                     >
                       <i className="icon-equalizer"></i>
-                    </a>
+                    </p>
                     <ul
                       className={
                         toggleEqualizer
@@ -384,50 +384,50 @@ class NavbarMenu extends React.Component {
                     >
                       <li className="menu-heading">ACCOUNT SETTINGS</li>
                       <li>
-                        <a>
+                        <p>
                           <i className="icon-note"></i> <span>Basic</span>
-                        </a>
+                        </p>
                       </li>
                       <li>
-                        <a>
+                        <p>
                           <i className="icon-equalizer"></i>{" "}
                           <span>Preferences</span>
-                        </a>
+                        </p>
                       </li>
                       <li>
-                        <a>
+                        <p>
                           <i className="icon-lock"></i> <span>Privacy</span>
-                        </a>
+                        </p>
                       </li>
                       <li>
-                        <a>
+                        <p>
                           <i className="icon-bell"></i>{" "}
                           <span>Notifications</span>
-                        </a>
+                        </p>
                       </li>
                       <li className="menu-heading">BILLING</li>
                       <li>
-                        <a>
+                        <p>
                           <i className="icon-credit-card"></i>{" "}
                           <span>Payments</span>
-                        </a>
+                        </p>
                       </li>
                       <li>
-                        <a>
+                        <p>
                           <i className="icon-printer"></i> <span>Invoices</span>
-                        </a>
+                        </p>
                       </li>
                       <li>
-                        <a>
+                        <p>
                           <i className="icon-refresh"></i> <span>Renewals</span>
-                        </a>
+                        </p>
                       </li>
                     </ul>
                   </li> */}
                   <li>
-                    <a href="login" className="icon-menu">
+                    <p href="login" className="icon-menu">
                       <i className="icon-login"></i>
-                    </a>
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -466,7 +466,7 @@ class NavbarMenu extends React.Component {
                 </p>
               </li>
               {/* <li className="nav-item">
-                <a
+                <p
                   className={sideMenuTab[1] ? "nav-link active" : "nav-link"}
                   data-toggle="tab"
                   onClick={() => {
@@ -474,10 +474,10 @@ class NavbarMenu extends React.Component {
                   }}
                 >
                   <i className="icon-book-open"></i>
-                </a>
+                </p>
               </li>
               <li className="nav-item">
-                <a
+                <p
                   className={sideMenuTab[2] ? "nav-link active" : "nav-link"}
                   data-toggle="tab"
                   onClick={() => {
@@ -485,10 +485,10 @@ class NavbarMenu extends React.Component {
                   }}
                 >
                   <i className="icon-settings"></i>
-                </a>
+                </p>
               </li>
               <li className="nav-item">
-                <a
+                <p
                   className={sideMenuTab[3] ? "nav-link active" : "nav-link"}
                   data-toggle="tab"
                   onClick={() => {
@@ -496,7 +496,7 @@ class NavbarMenu extends React.Component {
                   }}
                 >
                   <i className="icon-question"></i>
-                </a>
+                </p>
               </li> */}
             </ul>
             <div className="tab-content p-l-0 p-r-0">
@@ -507,7 +507,7 @@ class NavbarMenu extends React.Component {
                 <Nav id="left-sidebar-nav" className="sidebar-nav">
                   <ul id="main-menu" className="metismenu">
                     <li className="" id="dashboradContainer">
-                      <a
+                      <p
                         href="#!"
                         className="has-arrow"
                         onClick={(e) => {
@@ -516,7 +516,7 @@ class NavbarMenu extends React.Component {
                         }}
                       >
                         <i className="icon-home"></i> <span>Dashboard</span>
-                      </a>
+                      </p>
                       <ul className="collapse">
                         <li
                           className={activeKey === "dashboard" ? "active" : ""}
@@ -533,7 +533,7 @@ class NavbarMenu extends React.Component {
                       </ul>
                     </li>
                     {/* <li id="AppContainer" className="">
-                      <a
+                      <p
                         href="#!"
                         className="has-arrow"
                         onClick={(e) => {
@@ -542,7 +542,7 @@ class NavbarMenu extends React.Component {
                         }}
                       >
                         <i className="icon-grid"></i> <span>App</span>
-                      </a>
+                      </p>
                       <ul className="collapse">
                         <li
                           className={activeKey === "appinbox" ? "active" : ""}
@@ -579,7 +579,7 @@ class NavbarMenu extends React.Component {
                       </ul>
                     </li> */}
                     <li id="FileManagerContainer" className="">
-                      <a
+                      <p
                         href="#!"
                         className="has-arrow"
                         onClick={(e) => {
@@ -589,7 +589,7 @@ class NavbarMenu extends React.Component {
                       >
                         <i className="icon-folder"></i>{" "}
                         <span>File Manager</span>
-                      </a>
+                      </p>
                       <ul className="collapse">
                         {/* <li
                           className={
@@ -622,7 +622,7 @@ class NavbarMenu extends React.Component {
                       </ul>
                     </li>
                     <li id="BlogContainer" className="">
-                      <a
+                      <p
                         href="#!"
                         className="has-arrow"
                         onClick={(e) => {
@@ -631,7 +631,7 @@ class NavbarMenu extends React.Component {
                         }}
                       >
                         <i className="icon-globe"></i> <span>Blog</span>
-                      </a>
+                      </p>
                       <ul className="collapse">
                         <li
                           className={
@@ -669,7 +669,7 @@ class NavbarMenu extends React.Component {
                       </ul>
                     </li>
                     <li id="DirectoryContainer" className="">
-                      <a
+                      <p
                         href="#!"
                         className="has-arrow"
                         onClick={(e) => {
@@ -678,7 +678,7 @@ class NavbarMenu extends React.Component {
                         }}
                       >
                         <i className="icon-globe"></i> <span>Directory</span>
-                      </a>
+                      </p>
                       <ul className="collapse">
                         <li
                           className={
@@ -718,7 +718,7 @@ class NavbarMenu extends React.Component {
                       </ul>
                     </li>
                     <li id="EventsContainer" className="">
-                      <a
+                      <p
                         href="#!"
                         className="has-arrow"
                         onClick={(e) => {
@@ -727,7 +727,7 @@ class NavbarMenu extends React.Component {
                         }}
                       >
                         <i className="icon-globe"></i> <span>Events</span>
-                      </a>
+                      </p>
                       <ul className="collapse">
                         <li
                           className={activeKey === "newevents" ? "active" : ""}
@@ -763,7 +763,7 @@ class NavbarMenu extends React.Component {
                       </ul>
                     </li>
                     {/* <li id="UIElementsContainer" className="">
-                      <a
+                      <p
                         href="#uiElements"
                         className="has-arrow"
                         onClick={(e) => {
@@ -773,7 +773,7 @@ class NavbarMenu extends React.Component {
                       >
                         <i className="icon-diamond"></i>{" "}
                         <span>UI Elements</span>
-                      </a>
+                      </p>
                       <ul className="collapse">
                         <li
                           className={
@@ -857,7 +857,7 @@ class NavbarMenu extends React.Component {
                       </ul>
                     </li> */}
                     {/* <li id="WidgetsContainer" className="">
-                      <a
+                      <p
                         href="#!"
                         className="has-arrow"
                         onClick={(e) => {
@@ -866,7 +866,7 @@ class NavbarMenu extends React.Component {
                         }}
                       >
                         <i className="icon-puzzle"></i> <span>Widgets</span>
-                      </a>
+                      </p>
                       <ul className="collapse">
                         <li
                           className={
@@ -905,7 +905,7 @@ class NavbarMenu extends React.Component {
                       </ul>
                     </li>
                     <li id="AuthenticationContainer" className="">
-                      <a
+                      <p
                         href="#!"
                         className="has-arrow"
                         onClick={(e) => {
@@ -917,7 +917,7 @@ class NavbarMenu extends React.Component {
                       >
                         <i className="icon-lock"></i>{" "}
                         <span>Authentication</span>
-                      </a>
+                      </p>
                       <ul
                         className={
                           addClassactive[6] ? "collapse in" : "collapse"
@@ -926,47 +926,47 @@ class NavbarMenu extends React.Component {
                         <li
                           className={addClassactiveChildAuth[0] ? "active" : ""}
                         >
-                          <a href="login">Login</a>
+                          <p href="login">Login</p>
                         </li>
                         <li
                           className={addClassactiveChildAuth[1] ? "active" : ""}
                         >
-                          <a href="registration">Register</a>
+                          <p href="registration">Register</p>
                         </li>
                         <li
                           className={addClassactiveChildAuth[2] ? "active" : ""}
                         >
-                          <a href="lockscreen">Lockscreen</a>
+                          <p href="lockscreen">Lockscreen</p>
                         </li>
                         <li
                           className={addClassactiveChildAuth[3] ? "active" : ""}
                         >
-                          <a href="forgotpassword">Forgot Password</a>
+                          <p href="forgotpassword">Forgot Password</p>
                         </li>
                         <li
                           className={addClassactiveChildAuth[4] ? "active" : ""}
                         >
-                          <a href="page404">Page 404</a>
+                          <p href="page404">Page 404</p>
                         </li>
                         <li
                           className={addClassactiveChildAuth[5] ? "active" : ""}
                         >
-                          <a href="page403">Page 403</a>
+                          <p href="page403">Page 403</p>
                         </li>
                         <li
                           className={addClassactiveChildAuth[6] ? "active" : ""}
                         >
-                          <a href="page500">Page 500</a>
+                          <p href="page500">Page 500</p>
                         </li>
                         <li
                           className={addClassactiveChildAuth[7] ? "active" : ""}
                         >
-                          <a href="page503">Page 503</a>
+                          <p href="page503">Page 503</p>
                         </li>
                       </ul>
                     </li> */}
                     <li id="AdsContainer" className="">
-                      <a
+                      <p
                         href="#!"
                         className="has-arrow"
                         onClick={(e) => {
@@ -975,7 +975,7 @@ class NavbarMenu extends React.Component {
                         }}
                       >
                         <i className="icon-globe"></i> <span>Ads</span>
-                      </a>
+                      </p>
                       <ul className="collapse">
                         <li className={activeKey === "newads" ? "active" : ""}>
                           <Link to="newads">Add New Ads</Link>
@@ -1004,7 +1004,7 @@ class NavbarMenu extends React.Component {
                       </ul>
                     </li>
                     <li id="BannerContainer" className="">
-                      <a
+                      <p
                         href="#!"
                         className="has-arrow"
                         onClick={(e) => {
@@ -1013,7 +1013,7 @@ class NavbarMenu extends React.Component {
                         }}
                       >
                         <i className="icon-globe"></i> <span>Banner</span>
-                      </a>
+                      </p>
                       <ul className="collapse">
                         <li
                           className={
@@ -1033,7 +1033,7 @@ class NavbarMenu extends React.Component {
                       </ul>
                     </li>
                     <li id="PagesContainer" className="">
-                      <a
+                      <p
                         href="#!"
                         className="has-arrow"
                         onClick={(e) => {
@@ -1042,7 +1042,7 @@ class NavbarMenu extends React.Component {
                         }}
                       >
                         <i className="icon-docs"></i> <span>Pages</span>
-                      </a>
+                      </p>
                       <ul className="collapse">
                         <li
                           className={activeKey === "blankpage" ? "active" : ""}
@@ -1175,7 +1175,7 @@ class NavbarMenu extends React.Component {
                       </ul>
                     </li>
                     {/* <li id="FormsContainer" className="">
-                      <a
+                      <p
                         href="#!"
                         className="has-arrow"
                         onClick={(e) => {
@@ -1184,7 +1184,7 @@ class NavbarMenu extends React.Component {
                         }}
                       >
                         <i className="icon-pencil"></i> <span>Forms</span>
-                      </a>
+                      </p>
                       <ul className={"collapse"}>
                         <li
                           className={
@@ -1205,7 +1205,7 @@ class NavbarMenu extends React.Component {
                       </ul>
                     </li> */}
                     {/* <li id="TablesContainer" className="">
-                      <a
+                      <p
                         href="#!"
                         className="has-arrow"
                         onClick={(e) => {
@@ -1214,7 +1214,7 @@ class NavbarMenu extends React.Component {
                         }}
                       >
                         <i className="icon-tag"></i> <span>Tables</span>
-                      </a>
+                      </p>
                       <ul className="collapse">
                         <li
                           className={
@@ -1227,7 +1227,7 @@ class NavbarMenu extends React.Component {
                       </ul>
                     </li>
                     <li id="chartsContainer" className="">
-                      <a
+                      <p
                         href="#!"
                         className="has-arrow"
                         onClick={(e) => {
@@ -1236,7 +1236,7 @@ class NavbarMenu extends React.Component {
                         }}
                       >
                         <i className="icon-bar-chart"></i> <span>Charts</span>
-                      </a>
+                      </p>
                       <ul className="collapse">
                         <li
                           className={activeKey === "echart" ? "active" : ""}
@@ -1247,7 +1247,7 @@ class NavbarMenu extends React.Component {
                       </ul>
                     </li>
                     <li id="MapsContainer" className="">
-                      <a
+                      <p
                         href="#!"
                         className="has-arrow"
                         onClick={(e) => {
@@ -1256,7 +1256,7 @@ class NavbarMenu extends React.Component {
                         }}
                       >
                         <i className="icon-map"></i> <span>Maps</span>
-                      </a>
+                      </p>
                       <ul className="collapse">
                         <li
                           className={
@@ -1563,89 +1563,89 @@ class NavbarMenu extends React.Component {
                 <ul className="list-unstyled question">
                   <li className="menu-heading">HOW-TO</li>
                   <li>
-                    <a
+                    <p
                       href="#!"
                       onClick={(e) => {
                         e.preventDefault();
                       }}
                     >
                       How to Create Campaign
-                    </a>
+                    </p>
                   </li>
                   <li>
-                    <a
+                    <p
                       href="#!"
                       onClick={(e) => {
                         e.preventDefault();
                       }}
                     >
                       Boost Your Sales
-                    </a>
+                    </p>
                   </li>
                   <li>
-                    <a
+                    <p
                       href="#!"
                       onClick={(e) => {
                         e.preventDefault();
                       }}
                     >
                       Website Analytics
-                    </a>
+                    </p>
                   </li>
                   <li className="menu-heading">ACCOUNT</li>
                   <li>
-                    <a
+                    <p
                       href="registration"
                       onClick={(e) => {
                         e.preventDefault();
                       }}
                     >
                       Cearet New Account
-                    </a>
+                    </p>
                   </li>
                   <li>
-                    <a
+                    <p
                       href="forgotpassword"
                       onClick={(e) => {
                         e.preventDefault();
                       }}
                     >
                       Change Password?
-                    </a>
+                    </p>
                   </li>
                   <li>
-                    <a
+                    <p
                       href="#!"
                       onClick={(e) => {
                         e.preventDefault();
                       }}
                     >
                       Privacy &amp; Policy
-                    </a>
+                    </p>
                   </li>
                   <li className="menu-heading">BILLING</li>
                   <li>
-                    <a
+                    <p
                       href="#!"
                       onClick={(e) => {
                         e.preventDefault();
                       }}
                     >
                       Payment info
-                    </a>
+                    </p>
                   </li>
                   <li>
-                    <a
+                    <p
                       href="#!"
                       onClick={(e) => {
                         e.preventDefault();
                       }}
                     >
                       Auto-Renewal
-                    </a>
+                    </p>
                   </li>
                   <li className="menu-button m-t-30">
-                    <a
+                    <p
                       href="#!"
                       className="btn btn-primary"
                       onClick={(e) => {
@@ -1653,7 +1653,7 @@ class NavbarMenu extends React.Component {
                       }}
                     >
                       <i className="icon-question"></i> Need Help?
-                    </a>
+                    </p>
                   </li>
                 </ul>
               </div>

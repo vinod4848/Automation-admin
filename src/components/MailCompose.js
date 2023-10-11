@@ -44,14 +44,14 @@ class MailCompose extends React.Component {
               <button type="button" className="btn btn-secondary  m-r-5">
                 Draft
               </button>
-              <a
+              <p
                 className="btn btn-outline-secondary"
                 onClick={() => {
                   this.props.onPressCompose(true);
                 }}
               >
                 Cancel
-              </a>
+              </p>
             </div>
           </div>
         </div>

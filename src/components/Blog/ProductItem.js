@@ -10,17 +10,17 @@ class ProductItem extends React.Component {
           <div className="cp_img">
             <img alt="Product" className="img-fluid" src={image} />
             <div className="hover">
-              <a className="btn btn-primary mr-1">
+              <p className="btn btn-primary mr-1">
                 <i className="icon-eye"></i>
-              </a>
-              <a className="btn btn-primary">
+              </p>
+              <p className="btn btn-primary">
                 <i className="icon-basket"></i>
-              </a>
+              </p>
             </div>
           </div>
           <div className="product_details">
             <h5>
-              <a>Simple Black Clock</a>
+              <p>Simple Black Clock</p>
             </h5>
             <ul className="product_price list-unstyled">
               <li className="old_price">$16.00</li>

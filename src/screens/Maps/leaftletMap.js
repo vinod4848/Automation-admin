@@ -19,13 +19,13 @@ export default class SimpleExample extends React.Component {
     return (
       <Map center={position} zoom={this.state.zoom}>
         <TileLayer
-          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+          attribution='&copy; <p href="http://osm.org/copyright">OpenStreetMap</p> contributors'
           url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"
         />
         <Marker position={position}>
           <Popup>
             <span>
-              A pretty CSS3 popup. <br /> Easily customizable.
+              p pretty CSS3 popup. <br /> Easily customizable.
             </span>
           </Popup>
         </Marker>

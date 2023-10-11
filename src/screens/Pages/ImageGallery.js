@@ -120,29 +120,29 @@ class ImageGalleryProfile extends React.Component {
                     <small>All pictures taken from pexels.com</small>
                   </h2>
                   {/* <ul className="header-dropdown">
-                    <li className="dropdown"><a aria-expanded="false" aria-haspopup="true" className="dropdown-toggle" data-toggle="dropdown"  role="button"></a>
+                    <li className="dropdown"><p aria-expanded="false" aria-haspopup="true" className="dropdown-toggle" data-toggle="dropdown"  role="button"></p>
                     <ul className="dropdown-menu dropdown-menu-right">
-                      <li ><a >Action</a></li>
-                      <li ><a >Another Action</a></li>
-                      <li ><a >Something else</a></li>
+                      <li ><p >Action</p></li>
+                      <li ><p >Another Action</p></li>
+                      <li ><p >Something else</p></li>
                       </ul></li>
                   </ul> */}
                   <Dropdown className="header-dropdown">
                     <Dropdown.Toggle
                       variant="none"
-                      as="a"
+                      as="p"
                       id="dropdown-basic"
                     ></Dropdown.Toggle>
 
                     <Dropdown.Menu className="dropdown-menu-right account">
                       <li>
-                        <a>Action</a>
+                        <p>Action</p>
                       </li>
                       <li>
-                        <a>Another Action</a>
+                        <p>Another Action</p>
                       </li>
                       <li>
-                        <a>Something else</a>
+                        <p>Something else</p>
                       </li>
                     </Dropdown.Menu>
                   </Dropdown>

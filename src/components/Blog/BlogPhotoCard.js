@@ -8,25 +8,25 @@ class BlogPhotoCard extends React.Component {
       <div className="card single_post">
         <div className="body pb-0">
           <h3 className="m-t-0 m-b-5">
-            <a href="blogdetails">
+            <p href="blogdetails">
               All photographs are accurate. None of them is the truth
-            </a>
+            </p>
           </h3>
           <ul className="meta">
             <li>
-              <a>
+              <p>
                 <i className="icon-user text-primary"></i>Posted By: John Smith
-              </a>
+              </p>
             </li>
             <li>
-              <a>
+              <p>
                 <i className="icon-tag text-success"></i>Photography
-              </a>
+              </p>
             </li>
             <li>
-              <a>
+              <p>
                 <i className="icon-bubbles text-warning"></i>Comments: 3
-              </a>
+              </p>
             </li>
           </ul>
         </div>
@@ -49,13 +49,13 @@ class BlogPhotoCard extends React.Component {
             </div>
           </div>
           <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
+            It is p long established fact that p reader will be distracted by
+            the readable content of p page when looking at its layout. The point
+            of using Lorem Ipsum is that it has p more-or-less normal
           </p>
-          <a className="btn btn-info m-t-20" title="read more">
+          <p className="btn btn-info m-t-20" title="read more">
             Read More
-          </a>
+          </p>
         </div>
       </div>
     );
