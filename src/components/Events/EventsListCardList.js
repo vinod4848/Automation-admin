@@ -1,35 +1,41 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useState } from "react";
+import React from "react";
+import { FaTrash } from "react-icons/fa";
 import { connect } from "react-redux";
 import { withRouter } from "react-router-dom";
-import DynamicMetaTags from "../../utils/DynamicMetaTags";
-import { FaSortUp, FaSortDown } from "react-icons/fa";
 
 class BlogListCard extends React.Component {
-  static counter = 1; // Initialize the static counter to 1
+  static counter = 1;
 
   constructor(props) {
     super(props);
     this.state = {
-      serial: BlogListCard.counter, // Assign the current value of the static counter to the component's state
+      serial: BlogListCard.counter,
     };
-    BlogListCard.counter++; // Increment the static counter for the next instance
+    BlogListCard.counter++;
   }
-  
+
   handleCLick = (postId) => {
     this.props.history.push(`/events/${postId}`);
+  };
+
+  handleDeleteClick = (postId) => {
+    this.props.onDeleteClick(postId);
   };
 
   handleTagClick = (keyword) => {
     this.props.filterBlogsByKeyword(keyword);
     this.props.history.push(`/bloglist?keyword=${keyword}`);
   };
+
   componentDidMount() {
-    this.setState((prevState) => ({ counter: prevState.counter + 1 }));
+    this.setState((prevState) => ({ serial: prevState.serial + 1 }));
   }
+
   render() {
     const { serial } = this.state;
     const { HeaderText, postId, organiserName, createdAt } = this.props;
+
     const formatDate = (dateString) => {
       const options = {
         month: "long",
@@ -50,6 +56,7 @@ class BlogListCard extends React.Component {
 
       return formattedDate.replace(/(\d+)/, `$1${daySuffix}`);
     };
+
     return (
       <>
         <tbody className="danger">
@@ -59,14 +66,16 @@ class BlogListCard extends React.Component {
             <td>{organiserName}</td>
             <td>{formatDate(createdAt)}</td>
             <td>
-              <button
-                className="btn btn-outline-secondary"
-                onClick={() => {
-                  this.handleCLick(postId);
-                }}
-              >
-                Read More
-              </button>
+              <a href={`/events/${postId}`}>Read More</a>
+              <span style={{ marginLeft: "10px" }}>
+                <FaTrash
+                  onClick={() => {
+                    this.handleDeleteClick(postId);
+                  }}
+                  className="delete-icon"
+                />
+                
+              </span>
             </td>
           </tr>
         </tbody>
@@ -75,6 +84,6 @@ class BlogListCard extends React.Component {
   }
 }
 
-const mapStateToProps = ({ mailInboxReducer }) => ({});
+const mapStateToProps = () => ({});
 
 export default withRouter(connect(mapStateToProps, {})(BlogListCard));

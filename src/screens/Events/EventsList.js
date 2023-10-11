@@ -145,8 +145,11 @@ class EventsList extends React.Component {
                         <th>
                           <h4>Published Date</h4>
                         </th>
-                        <th>
+                        {/* <th>
                           <h4>Read More</h4>
+                        </th> */}
+                        <th>
+                          <h4>Actions</h4>
                         </th>
                       </tr>
                     </thead>

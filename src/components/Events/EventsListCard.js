@@ -64,7 +64,7 @@ class EventsListCard extends React.Component {
               )}
               {fileType.includes("image") && (
                 <img
-                  style={{width:"300px", height:"300px"}}
+                  style={{ width: "300px", height: "300px" }}
                   className="d-block img-fluid"
                   src={fileUrl}
                   alt="First slide"
@@ -83,13 +83,17 @@ class EventsListCard extends React.Component {
                 ></iframe>
               )}
             </div>
-            <h3>
-              {title}
-            </h3>
-            <div dangerouslySetInnerHTML={{ __html: description }} style={{fontSize:"15px"}}/>
+            <h3>{title}</h3>
+            <div
+              dangerouslySetInnerHTML={{ __html: description }}
+              style={{ fontSize: "15px" }}
+            />
           </div>
           <div className="footer">
-            <div className="event-info" style={{marginLeft:"20px", fontSize:"15px"}}>
+            <div
+              className="event-info"
+              style={{ marginLeft: "20px", fontSize: "15px" }}
+            >
               <div>Brief: {brief}</div>
               <div>Website: {website}</div>
               <div>Event Type: {eventType}</div>
@@ -103,6 +107,16 @@ class EventsListCard extends React.Component {
               <div>Start Time: {startTime}</div>
               <div>Start Date: {formatDate(startDate)}</div>
               <div>End Date: {formatDate(endDate)}</div>
+              <div className="update-button">
+                <button
+                  onClick={() => {
+                    this.props.history.push(`/updateEvent/${eventId}`);
+                  }}
+                  className="btn btn-primary"
+                >
+                  Update Event
+                </button>
+              </div>
             </div>
           </div>
         </div>

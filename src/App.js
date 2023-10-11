@@ -259,6 +259,11 @@ class App extends React.Component {
                   />
                   <Route
                     exact
+                    path={`${process.env.PUBLIC_URL}/updateEvent/:postId`}
+                    component={NewEvents}
+                  />
+                  <Route
+                    exact
                     path={`${process.env.PUBLIC_URL}/newads`}
                     component={NewAds}
                   />
