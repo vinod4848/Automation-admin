@@ -16,90 +16,89 @@ class LastCommentCard extends React.Component {
         <div className="body">
           <ul className="right_chat list-unstyled">
             <li className="online">
-              <a>
-                <div className="media">
-                  <img alt="" className="media-object " src={avatar4} />
-                  <div className="media-body">
-                    <span className="name">
-                      Chris Fox <small className="float-right">Just now</small>
-                    </span>
-                    <span className="message">
-                      Lorem ipsum Veniam aliquip culpa laboris minim tempor
-                    </span>
-                    <span className="badge badge-outline status"></span>
-                  </div>
+
+              <div className="media">
+                <img alt="" className="media-object " src={avatar4} />
+                <div className="media-body">
+                  <span className="name">
+                    Chris Fox <small className="float-right">Just now</small>
+                  </span>
+                  <span className="message">
+                    Lorem ipsum Veniam aliquip culpa laboris minim tempor
+                  </span>
+                  <span className="badge badge-outline status"></span>
                 </div>
-              </a>
+              </div>
+
             </li>
             <li className="online">
-              <a>
-                <div className="media">
-                  <img alt="" className="media-object " src={avatar5} />
-                  <div className="media-body">
-                    <span className="name">
-                      Joge Lucky{" "}
-                      <small className="float-right">38 minutes ago</small>
-                    </span>
-                    <span className="message">
-                      Many desktop publishing packages and web page editors
-                    </span>
-                    <span className="badge badge-outline status"></span>
-                  </div>
+
+              <div className="media">
+                <img alt="" className="media-object " src={avatar5} />
+                <div className="media-body">
+                  <span className="name">
+                    Joge Lucky{" "}
+                    <small className="float-right">38 minutes ago</small>
+                  </span>
+                  <span className="message">
+                    Many desktop publishing packages and web page editors
+                  </span>
+                  <span className="badge badge-outline status"></span>
                 </div>
-              </a>
+              </div>
+
             </li>
             <li className="offline">
-              <a>
-                <div className="media">
-                  <img alt="" className="media-object " src={avatar2} />
-                  <div className="media-body">
-                    <span className="name">
-                      Isabella{" "}
-                      <small className="float-right">2 hours ago</small>
-                    </span>
-                    <span className="message">
-                      Contrary to popular belief, Lorem Ipsum is not simply
-                      random text
-                    </span>
-                    <span className="badge badge-outline status"></span>
-                  </div>
+
+              <div className="media">
+                <img alt="" className="media-object " src={avatar2} />
+                <div className="media-body">
+                  <span className="name">
+                    Isabella{" "}
+                    <small className="float-right">2 hours ago</small>
+                  </span>
+                  <span className="message">
+                    Contrary to popular belief, Lorem Ipsum is not simply
+                    random text
+                  </span>
+                  <span className="badge badge-outline status"></span>
                 </div>
-              </a>
+              </div>
+
             </li>
             <li className="offline">
-              <a>
-                <div className="media">
-                  <img alt="" className="media-object " src={avatar1} />
-                  <div className="media-body">
-                    <span className="name">
-                      Folisise Chosielie{" "}
-                      <small className="float-right">32 hours ago</small>
-                    </span>
-                    <span className="message">
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority
-                    </span>
-                    <span className="badge badge-outline status"></span>
-                  </div>
+
+              <div className="media">
+                <img alt="" className="media-object " src={avatar1} />
+                <div className="media-body">
+                  <span className="name">
+                    Folisise Chosielie{" "}
+                    <small className="float-right">32 hours ago</small>
+                  </span>
+                  <span className="message">
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority
+                  </span>
+                  <span className="badge badge-outline status"></span>
                 </div>
-              </a>
+              </div>
+
             </li>
             <li className="online">
-              <a>
-                <div className="media">
-                  <img alt="" className="media-object " src={avatar3} />
-                  <div className="media-body">
-                    <span className="name">
-                      Alexander <small className="float-right">1 day ago</small>
-                    </span>
-                    <span className="message">
-                      It is a long established fact that a reader will be
-                      distracted
-                    </span>
-                    <span className="badge badge-outline status"></span>
-                  </div>
+              <div className="media">
+                <img alt="" className="media-object " src={avatar3} />
+                <div className="media-body">
+                  <span className="name">
+                    Alexander <small className="float-right">1 day ago</small>
+                  </span>
+                  <span className="message">
+                    It is a long established fact that a reader will be
+                    distracted
+                  </span>
+                  <span className="badge badge-outline status"></span>
                 </div>
-              </a>
+              </div>
+
             </li>
           </ul>
         </div>

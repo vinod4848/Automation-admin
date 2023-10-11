@@ -31,64 +31,64 @@ class FollowersCard extends React.Component {
           </form>
           <ul className="right_chat list-unstyled">
             <li className="online">
-              <a>
-                <div className="media">
-                  <img className="media-object " src={Avatar4} alt="" />
-                  <div className="media-body">
-                    <span className="name">Chris Fox</span>
-                    <span className="message">Designer, Blogger</span>
-                    <span className="badge badge-outline status"></span>
-                  </div>
+
+              <div className="media">
+                <img className="media-object " src={Avatar4} alt="" />
+                <div className="media-body">
+                  <span className="name">Chris Fox</span>
+                  <span className="message">Designer, Blogger</span>
+                  <span className="badge badge-outline status"></span>
                 </div>
-              </a>
+              </div>
+
             </li>
             <li className="online">
-              <a>
-                <div className="media">
-                  <img className="media-object " src={Avatar5} alt="" />
-                  <div className="media-body">
-                    <span className="name">Joge Lucky</span>
-                    <span className="message">Java Developer</span>
-                    <span className="badge badge-outline status"></span>
-                  </div>
+
+              <div className="media">
+                <img className="media-object " src={Avatar5} alt="" />
+                <div className="media-body">
+                  <span className="name">Joge Lucky</span>
+                  <span className="message">Java Developer</span>
+                  <span className="badge badge-outline status"></span>
                 </div>
-              </a>
+              </div>
+
             </li>
             <li className="offline">
-              <a>
-                <div className="media">
-                  <img className="media-object " src={Avatar2} alt="" />
-                  <div className="media-body">
-                    <span className="name">Isabella</span>
-                    <span className="message">CEO, Thememakker</span>
-                    <span className="badge badge-outline status"></span>
-                  </div>
+
+              <div className="media">
+                <img className="media-object " src={Avatar2} alt="" />
+                <div className="media-body">
+                  <span className="name">Isabella</span>
+                  <span className="message">CEO, Thememakker</span>
+                  <span className="badge badge-outline status"></span>
                 </div>
-              </a>
+              </div>
+
             </li>
             <li className="offline">
-              <a>
-                <div className="media">
-                  <img className="media-object " src={Avatar1} alt="" />
-                  <div className="media-body">
-                    <span className="name">Folisise Chosielie</span>
-                    <span className="message">Art director, Movie Cut</span>
-                    <span className="badge badge-outline status"></span>
-                  </div>
+
+              <div className="media">
+                <img className="media-object " src={Avatar1} alt="" />
+                <div className="media-body">
+                  <span className="name">Folisise Chosielie</span>
+                  <span className="message">Art director, Movie Cut</span>
+                  <span className="badge badge-outline status"></span>
                 </div>
-              </a>
+              </div>
+
             </li>
             <li className="online">
-              <a>
-                <div className="media">
-                  <img className="media-object " src={Avatar3} alt="" />
-                  <div className="media-body">
-                    <span className="name">Alexander</span>
-                    <span className="message">Writter, Mag Editor</span>
-                    <span className="badge badge-outline status"></span>
-                  </div>
+
+              <div className="media">
+                <img className="media-object " src={Avatar3} alt="" />
+                <div className="media-body">
+                  <span className="name">Alexander</span>
+                  <span className="message">Writter, Mag Editor</span>
+                  <span className="badge badge-outline status"></span>
                 </div>
-              </a>
+              </div>
+
             </li>
           </ul>
         </div>

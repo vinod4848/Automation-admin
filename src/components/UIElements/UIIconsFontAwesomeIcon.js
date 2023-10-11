@@ -1015,7 +1015,7 @@ class UIIconsFontAwesomeIcon extends React.Component {
               <code>fa-spin</code> class. Check out the
               <a
                 href="http://fortawesome.github.io/Font-Awesome/examples/#spinning"
-                target="_blank"
+
                 className="alert-link"
               >
                 {" "}

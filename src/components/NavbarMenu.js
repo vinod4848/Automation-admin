@@ -87,7 +87,7 @@ class NavbarMenu extends React.Component {
     } else if (
       activeKey === "/newbannerads" ||
       activeKey === "/banneradslist"
-     ) {
+    ) {
       this.activeMenutabContainer("EventsContainer");
     } else if (
       activeKey === "/uitypography" ||
@@ -294,70 +294,70 @@ class NavbarMenu extends React.Component {
                         <strong>You have 4 new Notifications</strong>
                       </li>
                       <li>
-                        <a>
-                          <div className="media">
-                            <div className="media-left">
-                              <i className="icon-info text-warning"></i>
-                            </div>
-                            <div className="media-body">
-                              <p className="text">
-                                Campaign <strong>Holiday Sale</strong> is nearly
-                                reach budget limit.
-                              </p>
-                              <span className="timestamp">10:00 AM Today</span>
-                            </div>
+
+                        <div className="media">
+                          <div className="media-left">
+                            <i className="icon-info text-warning"></i>
                           </div>
-                        </a>
+                          <div className="media-body">
+                            <p className="text">
+                              Campaign <strong>Holiday Sale</strong> is nearly
+                              reach budget limit.
+                            </p>
+                            <span className="timestamp">10:00 AM Today</span>
+                          </div>
+                        </div>
+
                       </li>
                       <li>
-                        <a>
-                          <div className="media">
-                            <div className="media-left">
-                              <i className="icon-like text-success"></i>
-                            </div>
-                            <div className="media-body">
-                              <p className="text">
-                                Your New Campaign <strong>Holiday Sale</strong>{" "}
-                                is approved.
-                              </p>
-                              <span className="timestamp">11:30 AM Today</span>
-                            </div>
+
+                        <div className="media">
+                          <div className="media-left">
+                            <i className="icon-like text-success"></i>
                           </div>
-                        </a>
+                          <div className="media-body">
+                            <p className="text">
+                              Your New Campaign <strong>Holiday Sale</strong>{" "}
+                              is approved.
+                            </p>
+                            <span className="timestamp">11:30 AM Today</span>
+                          </div>
+                        </div>
+
                       </li>
                       <li>
-                        <a>
-                          <div className="media">
-                            <div className="media-left">
-                              <i className="icon-pie-chart text-info"></i>
-                            </div>
-                            <div className="media-body">
-                              <p className="text">
-                                Website visits from Twitter is 27% higher than
-                                last week.
-                              </p>
-                              <span className="timestamp">04:00 PM Today</span>
-                            </div>
+
+                        <div className="media">
+                          <div className="media-left">
+                            <i className="icon-pie-chart text-info"></i>
                           </div>
-                        </a>
+                          <div className="media-body">
+                            <p className="text">
+                              Website visits from Twitter is 27% higher than
+                              last week.
+                            </p>
+                            <span className="timestamp">04:00 PM Today</span>
+                          </div>
+                        </div>
+
                       </li>
                       <li>
-                        <a>
-                          <div className="media">
-                            <div className="media-left">
-                              <i className="icon-info text-danger"></i>
-                            </div>
-                            <div className="media-body">
-                              <p className="text">
-                                Error on website analytics configurations
-                              </p>
-                              <span className="timestamp">Yesterday</span>
-                            </div>
+
+                        <div className="media">
+                          <div className="media-left">
+                            <i className="icon-info text-danger"></i>
                           </div>
-                        </a>
+                          <div className="media-body">
+                            <p className="text">
+                              Error on website analytics configurations
+                            </p>
+                            <span className="timestamp">Yesterday</span>
+                          </div>
+                        </div>
+
                       </li>
                       <li className="footer">
-                        <a className="more">See all notifications</a>
+                        <p className="more">See all notifications</p>
                       </li>
                     </ul>
                   </li>
@@ -455,7 +455,7 @@ class NavbarMenu extends React.Component {
             </div>
             <ul className="nav nav-tabs">
               <li className="nav-item">
-                <a
+                <p
                   className={sideMenuTab[0] ? "nav-link active" : "nav-link"}
                   data-toggle="tab"
                   onClick={() => {
@@ -463,7 +463,7 @@ class NavbarMenu extends React.Component {
                   }}
                 >
                   Menu
-                </a>
+                </p>
               </li>
               {/* <li className="nav-item">
                 <a
@@ -609,7 +609,7 @@ class NavbarMenu extends React.Component {
                         </li> */}
                         <li
                           className={activeKey === "filemedia" ? "active" : ""}
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="filemedia">Media</Link>
                         </li>
@@ -642,7 +642,7 @@ class NavbarMenu extends React.Component {
                         </li>
                         <li
                           className={activeKey === "bloglist" ? "active" : ""}
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="bloglist">All Blogs</Link>
                         </li>
@@ -656,13 +656,13 @@ class NavbarMenu extends React.Component {
                         </li> */}
                         <li
                           className={activeKey === "bloglist" ? "active" : ""}
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="bloglist">Categories</Link>
                         </li>
                         <li
                           className={activeKey === "bloglist" ? "active" : ""}
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="bloglist">Tags</Link>
                         </li>
@@ -691,7 +691,7 @@ class NavbarMenu extends React.Component {
                           className={
                             activeKey === "directoryList" ? "active" : ""
                           }
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="directoryList">All Directories</Link>
                         </li>
@@ -736,7 +736,7 @@ class NavbarMenu extends React.Component {
                         </li>
                         <li
                           className={activeKey === "eventsList" ? "active" : ""}
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="eventsList">All Events</Link>
                         </li>
@@ -982,7 +982,7 @@ class NavbarMenu extends React.Component {
                         </li>
                         <li
                           className={activeKey === "adslist" ? "active" : ""}
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="adslist">All Ads</Link>
                         </li>
@@ -997,7 +997,7 @@ class NavbarMenu extends React.Component {
                           className={
                             activeKey === "headeradslist" ? "active" : ""
                           }
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="headeradslist">All Header Ads</Link>
                         </li>
@@ -1026,7 +1026,7 @@ class NavbarMenu extends React.Component {
                           className={
                             activeKey === "banneradslist" ? "active" : ""
                           }
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="banneradslist">All Banners</Link>
                         </li>
@@ -1046,7 +1046,7 @@ class NavbarMenu extends React.Component {
                       <ul className="collapse">
                         <li
                           className={activeKey === "blankpage" ? "active" : ""}
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="blankpage">Blank Page</Link>{" "}
                         </li>
@@ -1054,7 +1054,7 @@ class NavbarMenu extends React.Component {
                           className={
                             activeKey === "profilev1page" ? "active" : ""
                           }
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="profilev1page">
                             Profile{" "}
@@ -1067,7 +1067,7 @@ class NavbarMenu extends React.Component {
                           className={
                             activeKey === "profilev2page" ? "active" : ""
                           }
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="profilev2page">
                             Profile{" "}
@@ -1080,27 +1080,27 @@ class NavbarMenu extends React.Component {
                           className={
                             activeKey === "imagegalleryprofile" ? "active" : ""
                           }
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="imagegalleryprofile">Image Gallery </Link>{" "}
                         </li>
 
                         <li
                           className={activeKey === "timeline" ? "active" : ""}
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="timeline">Timeline</Link>
                         </li>
 
                         <li
                           className={activeKey === "pricing" ? "active" : ""}
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="pricing">Pricing</Link>
                         </li>
                         <li
                           className={activeKey === "invoices" ? "active" : ""}
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="invoices">
                             Invoices
@@ -1111,7 +1111,7 @@ class NavbarMenu extends React.Component {
                         </li>
                         <li
                           className={activeKey === "invoicesv2" ? "active" : ""}
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="invoicesv2">
                             Invoices{" "}
@@ -1124,7 +1124,7 @@ class NavbarMenu extends React.Component {
                           className={
                             activeKey === "searchresult" ? "active" : ""
                           }
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="searchresult">Search Results</Link>
                         </li>
@@ -1132,13 +1132,13 @@ class NavbarMenu extends React.Component {
                           className={
                             activeKey === "helperclass" ? "active" : ""
                           }
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="helperclass">Helper Classes</Link>
                         </li>
                         <li
                           className={activeKey === "teamsboard" ? "active" : ""}
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="teamsboard">Teams Board</Link>
                         </li>
@@ -1146,7 +1146,7 @@ class NavbarMenu extends React.Component {
                           className={
                             activeKey === "projectslist" ? "active" : ""
                           }
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="projectslist">Projects List</Link>
                         </li>
@@ -1154,7 +1154,7 @@ class NavbarMenu extends React.Component {
                           className={
                             activeKey === "maintanance" ? "active" : ""
                           }
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="maintanance">Maintenance</Link>
                         </li>
@@ -1162,13 +1162,13 @@ class NavbarMenu extends React.Component {
                           className={
                             activeKey === "testimonials" ? "active" : ""
                           }
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="testimonials">Testimonials</Link>
                         </li>
                         <li
                           className={activeKey === "faqs" ? "active" : ""}
-                          onClick={() => {}}
+                          onClick={() => { }}
                         >
                           <Link to="faqs">FAQ</Link>
                         </li>
@@ -1298,66 +1298,66 @@ class NavbarMenu extends React.Component {
                 </form>
                 <ul className="right_chat list-unstyled">
                   <li className="online">
-                    <a>
-                      <div className="media">
-                        <img className="media-object " src={Avatar4} alt="" />
-                        <div className="media-body">
-                          <span className="name">Chris Fox</span>
-                          <span className="message">Designer, Blogger</span>
-                          <span className="badge badge-outline status"></span>
-                        </div>
+
+                    <div className="media">
+                      <img className="media-object " src={Avatar4} alt="" />
+                      <div className="media-body">
+                        <span className="name">Chris Fox</span>
+                        <span className="message">Designer, Blogger</span>
+                        <span className="badge badge-outline status"></span>
                       </div>
-                    </a>
+                    </div>
+
                   </li>
                   <li className="online">
-                    <a>
-                      <div className="media">
-                        <img className="media-object " src={Avatar5} alt="" />
-                        <div className="media-body">
-                          <span className="name">Joge Lucky</span>
-                          <span className="message">Java Developer</span>
-                          <span className="badge badge-outline status"></span>
-                        </div>
+
+                    <div className="media">
+                      <img className="media-object " src={Avatar5} alt="" />
+                      <div className="media-body">
+                        <span className="name">Joge Lucky</span>
+                        <span className="message">Java Developer</span>
+                        <span className="badge badge-outline status"></span>
                       </div>
-                    </a>
+                    </div>
+
                   </li>
                   <li className="offline">
-                    <a>
-                      <div className="media">
-                        <img className="media-object " src={Avatar2} alt="" />
-                        <div className="media-body">
-                          <span className="name">Isabella</span>
-                          <span className="message">CEO, Thememakker</span>
-                          <span className="badge badge-outline status"></span>
-                        </div>
+
+                    <div className="media">
+                      <img className="media-object " src={Avatar2} alt="" />
+                      <div className="media-body">
+                        <span className="name">Isabella</span>
+                        <span className="message">CEO, Thememakker</span>
+                        <span className="badge badge-outline status"></span>
                       </div>
-                    </a>
+                    </div>
+
                   </li>
                   <li className="offline">
-                    <a>
-                      <div className="media">
-                        <img className="media-object " src={Avatar1} alt="" />
-                        <div className="media-body">
-                          <span className="name">Folisise Chosielie</span>
-                          <span className="message">
-                            Art director, Movie Cut
-                          </span>
-                          <span className="badge badge-outline status"></span>
-                        </div>
+
+                    <div className="media">
+                      <img className="media-object " src={Avatar1} alt="" />
+                      <div className="media-body">
+                        <span className="name">Folisise Chosielie</span>
+                        <span className="message">
+                          Art director, Movie Cut
+                        </span>
+                        <span className="badge badge-outline status"></span>
                       </div>
-                    </a>
+                    </div>
+
                   </li>
                   <li className="online">
-                    <a>
-                      <div className="media">
-                        <img className="media-object " src={Avatar3} alt="" />
-                        <div className="media-body">
-                          <span className="name">Alexander</span>
-                          <span className="message">Writter, Mag Editor</span>
-                          <span className="badge badge-outline status"></span>
-                        </div>
+
+                    <div className="media">
+                      <img className="media-object " src={Avatar3} alt="" />
+                      <div className="media-body">
+                        <span className="name">Alexander</span>
+                        <span className="message">Writter, Mag Editor</span>
+                        <span className="badge badge-outline status"></span>
                       </div>
-                    </a>
+                    </div>
+
                   </li>
                 </ul>
               </div>
@@ -1438,7 +1438,7 @@ class NavbarMenu extends React.Component {
                   <li
                     data-theme="red"
                     className="active"
-                    className={themeColor === "theme-cyan" ? "active" : ""}
+                  // className={themeColor === "theme-cyan" ? "active" : ""}
                   >
                     <div
                       className="cyan"
