@@ -104,13 +104,10 @@ class UIBootstrapAccordion extends React.Component {
                   <button
                     className="btn btn-primary mr-1"
                     data-toggle="collapse"
-                    role="button"
                     aria-expanded="false"
                     aria-controls="collapseExample"
                     onClick={() => {
-                      var details = document.getElementById(
-                        "collapseExampleopne"
-                      );
+                      var details = document.getElementById("collapseExample");
                       if (details.classList.contains("show")) {
                         details.classList.remove("show");
                       } else {
@@ -157,25 +154,28 @@ class UIBootstrapAccordion extends React.Component {
                     <button
                       className="btn btn-primary mr-1"
                       data-toggle="collapse"
-                      role="button"
                       aria-expanded="false"
                       aria-controls="multiCollapseExample1"
                       onClick={() => {
-                        var details = document.getElementById(
-                          "multiCollapseExample1"
-                        );
-                        document
-                          .getElementById("multiCollapseExample2")
-                          .classList.remove("show");
-                        if (details.classList.contains("show")) {
-                          details.classList.remove("show");
-                        } else {
-                          details.classList.add("show");
+                        const details = document.getElementById("multiCollapseExample1");
+                        const details2 = document.getElementById("multiCollapseExample2");
+
+                        if (details) {
+                          if (details.classList.contains("show")) {
+                            details.classList.remove("show");
+                          } else {
+                            details.classList.add("show");
+                          }
+                        }
+
+                        if (details2 && details2.classList.contains("show")) {
+                          details2.classList.remove("show");
                         }
                       }}
                     >
                       Toggle first element
                     </button>
+
                     <button
                       className="btn btn-primary mr-1"
                       type="button"

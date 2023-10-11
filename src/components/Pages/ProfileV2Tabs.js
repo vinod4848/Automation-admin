@@ -16,25 +16,24 @@ class ProfileV2Tabs extends React.Component {
           <div className="body">
             <ul className="nav nav-tabs-new">
               <li className="nav-item  mr-1">
-                <a
+                <button
                   className={`nav-link ${!tab ? "active" : ""}`}
                   onClick={() => {
                     this.setState({ tab: false });
                   }}
                 >
-                  {" "}
                   Overview
-                </a>
+                </button>
               </li>
               <li className="nav-item">
-                <a
+                <button
                   className={`nav-link ${tab ? "active" : ""}`}
                   onClick={() => {
                     this.setState({ tab: true });
                   }}
                 >
                   Settings
-                </a>
+                </button>
               </li>
             </ul>
           </div>
@@ -87,17 +86,17 @@ class ProfileV2Tabs extends React.Component {
               </div>
               <div className="footer">
                 <div className="actions">
-                  <a className="btn btn-outline-secondary">Continue Reading</a>
+                  <button className="btn btn-outline-secondary">Continue Reading</button>
                 </div>
                 <ul className="stats">
                   <li>
-                    <a>General</a>
+                    <button>General</button>
                   </li>
                   <li>
-                    <a className="icon-heart">28</a>
+                    <button className="icon-heart">28</button>
                   </li>
                   <li>
-                    <a className="icon-bubbles">128</a>
+                    <button className="icon-bubbles">128</button>
                   </li>
                 </ul>
               </div>
@@ -123,17 +122,17 @@ class ProfileV2Tabs extends React.Component {
               </div>
               <div className="footer">
                 <div className="actions">
-                  <a className="btn btn-outline-secondary">Continue Reading</a>
+                  <button className="btn btn-outline-secondary">Continue Reading</button>
                 </div>
                 <ul className="stats">
                   <li>
-                    <a>General</a>
+                    <button>General</button>
                   </li>
                   <li>
-                    <a className="icon-heart">28</a>
+                    <button className="icon-heart">28</button>
                   </li>
                   <li>
-                    <a className="icon-bubbles">128</a>
+                    <button className="icon-bubbles">128</button>
                   </li>
                 </ul>
               </div>
@@ -537,7 +536,7 @@ class ProfileV2Tabs extends React.Component {
                         className="form-control"
                         value="alizeethomas"
                         disabled=""
-                        onChange={() => {}}
+                        onChange={() => { }}
                         placeholder="Username"
                       />
                     </div>
@@ -547,7 +546,7 @@ class ProfileV2Tabs extends React.Component {
                         className="form-control"
                         value="alizee.info@yourdomain.com"
                         placeholder="Email"
-                        onChange={() => {}}
+                        onChange={() => { }}
                       />
                     </div>
                     <div className="form-group">
