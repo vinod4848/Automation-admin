@@ -5,7 +5,6 @@ class BlogAdsCard extends React.Component {
   render() {
     const {
       HeaderText,
-      Details,
       RefLink,
       PostList,
       ImageList,
@@ -26,19 +25,19 @@ class BlogAdsCard extends React.Component {
             <ul className="list-unstyled categories-clouds m-b-0">
               {RefLink
                 ? RefLink.map((data, i) => {
-                    return (
-                      <li key={"fihgi" + i}>
-                        <p
-                          href="#!"
-                          onClick={(e) => {
-                            e.preventDefault();
-                          }}
-                        >
-                          {data.name}
-                        </p>
-                      </li>
-                    );
-                  })
+                  return (
+                    <li key={"fihgi" + i}>
+                      <p
+                        href="#!"
+                        onClick={(e) => {
+                          e.preventDefault();
+                        }}
+                      >
+                        {data.name}
+                      </p>
+                    </li>
+                  );
+                })
                 : null}
             </ul>
           </div>
@@ -53,8 +52,9 @@ class BlogAdsCard extends React.Component {
                       <p className="m-b-0">{data.Ads}</p>
                       <span>{data.Date}</span>
                       <div className="img-post">
-                        <img alt="Awesome Image" src={data.ImageUrl} />
+                        <img alt="User Profile" src={data.ImageUrl} />
                       </div>
+
                     </div>
                   );
                 })}
@@ -69,7 +69,7 @@ class BlogAdsCard extends React.Component {
                 return (
                   <li key={"imagesdd" + i}>
                     <p>
-                      <img src={data.ImageUrl} alt="image description" />
+                      <img src={data.ImageUrl} alt="Description" />
                     </p>
                   </li>
                 );

@@ -8,7 +8,6 @@ import Avatar5 from "../assets/images/xs/avatar5.jpg";
 
 class ProfileHeaderCard extends React.Component {
   render() {
-    const { HeaderText, Breadcrumb } = this.props;
     return (
       <div className="body">
         <div className="text-center">

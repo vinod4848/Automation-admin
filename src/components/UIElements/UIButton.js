@@ -77,9 +77,9 @@ class UIButtonCard extends React.Component {
               <h2>Button tags</h2>
             </div>
             <div className="body">
-              <a className="btn btn-primary mr-1" role="button">
+              <p className="btn btn-primary mr-1" role="button">
                 Link
-              </a>
+              </p>
               <button className="btn btn-primary mr-1" type="submit">
                 Button
               </button>
@@ -139,6 +139,7 @@ class UIButtonCard extends React.Component {
   }
 }
 
+// eslint-disable-next-line no-empty-pattern
 const mapStateToProps = ({}) => ({});
 
 export default connect(mapStateToProps, {})(UIButtonCard);

@@ -9,9 +9,9 @@ class ProductRating extends React.Component {
         <div className="body">
           <div className="row">
             <div className="col-sm-3">
-              <img className="rounded" src={avatar4} />
+            <img className="rounded" src={avatar4} alt="" />
               <div className="review-block-name">
-                <a>Herman</a>
+                <p>Herman</p>
               </div>
               <span>
                 Jun 22, 2018
