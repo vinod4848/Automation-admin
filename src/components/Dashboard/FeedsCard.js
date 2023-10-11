@@ -5,7 +5,6 @@ import { onPressRecentChatDropDown } from "../../actions";
 
 class FeedCards extends React.Component {
   render() {
-    const { recentChatDropDown } = this.props;
     return (
       <div className="card">
         <div className="header">

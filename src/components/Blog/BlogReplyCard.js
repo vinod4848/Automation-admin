@@ -3,7 +3,6 @@ import { connect } from "react-redux";
 
 class BlogReplyCard extends React.Component {
   render() {
-    const { CommentsList, HeaderText } = this.props;
     return (
       <div className="card">
         <div className="header">

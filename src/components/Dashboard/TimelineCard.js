@@ -5,7 +5,6 @@ import { onPressRecentChatDropDown } from "../../actions";
 
 class TimelineCard extends React.Component {
   render() {
-    const { recentChatDropDown } = this.props;
     return (
       <div className="card">
         <div className="header">

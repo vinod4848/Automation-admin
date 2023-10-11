@@ -6,7 +6,6 @@ import { onPressReferralsDropDown } from "../../actions";
 
 class ReferralsCard extends React.Component {
   render() {
-    const { referralsDropDown } = this.props;
     return (
       <div className="card">
         <div className="header">
@@ -18,13 +17,13 @@ class ReferralsCard extends React.Component {
                 className="dropdown-menu dropdown-menu-right"
               >
                 <li>
-                  <a>Action</a>
+                  <p>Action</p>
                 </li>
                 <li>
-                  <a>Another Action</a>
+                  <p>Another Action</p>
                 </li>
                 <li>
-                  <a>Something else</a>
+                  <p>Something else</p>
                 </li>
               </Dropdown.Menu>
             </Dropdown.Toggle>
