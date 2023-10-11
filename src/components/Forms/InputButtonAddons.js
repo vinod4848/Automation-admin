@@ -95,11 +95,11 @@ class InputButtonAddons extends React.Component {
               </Dropdown.Toggle>
 
               <Dropdown.Menu as="div">
-                <a className="dropdown-item">Action</a>
-                <a className="dropdown-item">Another action</a>
-                <a className="dropdown-item">Something else here</a>
+                <p className="dropdown-item">Action</p>
+                <p className="dropdown-item">Another action</p>
+                <p className="dropdown-item">Something else here</p>
                 <div className="dropdown-divider" role="separator"></div>
-                <a className="dropdown-item">Separated link</a>
+                <p className="dropdown-item">Separated link</p>
               </Dropdown.Menu>
             </Dropdown>
 
@@ -134,11 +134,11 @@ class InputButtonAddons extends React.Component {
               </Dropdown.Toggle>
 
               <Dropdown.Menu as="div" className="hclass">
-                <a className="dropdown-item">Action</a>
-                <a className="dropdown-item">Another action</a>
-                <a className="dropdown-item">Something else here</a>
+                <p className="dropdown-item">Action</p>
+                <p className="dropdown-item">Another action</p>
+                <p className="dropdown-item">Something else here</p>
                 <div className="dropdown-divider" role="separator"></div>
-                <a className="dropdown-item">Separated link</a>
+                <p className="dropdown-item">Separated link</p>
               </Dropdown.Menu>
             </Dropdown>
           </div>
@@ -168,11 +168,11 @@ class InputButtonAddons extends React.Component {
               </Dropdown.Toggle>
 
               <Dropdown.Menu as="div">
-                <a className="dropdown-item">Action</a>
-                <a className="dropdown-item">Another action</a>
-                <a className="dropdown-item">Something else here</a>
+                <p className="dropdown-item">Action</p>
+                <p className="dropdown-item">Another action</p>
+                <p className="dropdown-item">Something else here</p>
                 <div className="dropdown-divider" role="separator"></div>
-                <a className="dropdown-item">Separated link</a>
+                <p className="dropdown-item">Separated link</p>
               </Dropdown.Menu>
             </Dropdown>
 
@@ -210,11 +210,11 @@ class InputButtonAddons extends React.Component {
               </Dropdown.Toggle>
 
               <Dropdown.Menu as="div" className="hclass">
-                <a className="dropdown-item">Action</a>
-                <a className="dropdown-item">Another action</a>
-                <a className="dropdown-item">Something else here</a>
+                <p className="dropdown-item">Action</p>
+                <p className="dropdown-item">Another action</p>
+                <p className="dropdown-item">Something else here</p>
                 <div className="dropdown-divider" role="separator"></div>
-                <a className="dropdown-item">Separated link</a>
+                <p className="dropdown-item">Separated link</p>
               </Dropdown.Menu>
             </Dropdown>
           </div>

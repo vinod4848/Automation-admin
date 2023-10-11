@@ -85,8 +85,8 @@ export const areaChartFileReport = {
   yAxis: [
     {
       type: "value",
-      splitLine: { show: false },
       splitLine: {
+        show: false,
         lineStyle: {
           type: "dotted",
         },
@@ -108,6 +108,7 @@ export const areaChartFileReport = {
       },
     },
   ],
+
   series: [
     {
       type: "line",
