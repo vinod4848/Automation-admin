@@ -181,9 +181,9 @@ class AppTaskbar extends React.Component {
                       <h2>Planned</h2>
                       <ul className="header-dropdown">
                         <li>
-                          <a data-toggle="modal" data-target="#addcontact">
+                          <button data-toggle="modal" data-target="#addcontact">
                             <i className="icon-plus"></i>
-                          </a>
+                          </button>
                         </li>
                       </ul>
                     </div>
@@ -294,9 +294,9 @@ class AppTaskbar extends React.Component {
                       <h2>In progress</h2>
                       <ul className="header-dropdown">
                         <li>
-                          <a data-toggle="modal" data-target="#addcontact">
+                          <button data-toggle="modal" data-target="#addcontact">
                             <i className="icon-plus"></i>
-                          </a>
+                          </button>
                         </li>
                       </ul>
                     </div>
@@ -407,9 +407,9 @@ class AppTaskbar extends React.Component {
                       <h2>Completed Task</h2>
                       <ul className="header-dropdown">
                         <li>
-                          <a data-toggle="modal" data-target="#addcontact">
+                          <button data-toggle="modal" data-target="#addcontact">
                             <i className="icon-plus"></i>
-                          </a>
+                          </button>
                         </li>
                       </ul>
                     </div>

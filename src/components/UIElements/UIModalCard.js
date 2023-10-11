@@ -12,13 +12,13 @@ class UIModalCard extends React.Component {
             <h2>{title}</h2>
           </div>
           <div className="body">
-            <a data-toggle="modal" onClick={onClick}>
+            <button data-toggle="modal" onClick={onClick}>
               <img
                 className="img-thumbnail img-fluid"
                 src={modalImage}
                 alt="User"
               />
-            </a>
+            </button>
           </div>
         </div>
       </div>

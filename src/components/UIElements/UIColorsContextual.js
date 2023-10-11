@@ -21,34 +21,34 @@ class UIColorsContextual extends React.Component {
               </strong>
             </p>
             <p>
-              <a className="text-primary">Primary link</a>
+              <button className="text-primary">Primary link</button>
             </p>
             <p>
-              <a className="text-secondary">Secondary link</a>
+              <button className="text-secondary">Secondary link</button>
             </p>
             <p>
-              <a className="text-success">Success link</a>
+              <button className="text-success">Success link</button>
             </p>
             <p>
-              <a className="text-danger">Danger link</a>
+              <button className="text-danger">Danger link</button>
             </p>
             <p>
-              <a className="text-warning">Warning link</a>
+              <button className="text-warning">Warning link</button>
             </p>
             <p>
-              <a className="text-info">Info link</a>
+              <button className="text-info">Info link</button>
             </p>
             <p>
-              <a className="text-light bg-dark">Light link</a>
+              <button className="text-light bg-dark">Light link</button>
             </p>
             <p>
-              <a className="text-dark">Dark link</a>
+              <button className="text-dark">Dark link</button>
             </p>
             <p>
-              <a className="text-muted">Muted link</a>
+              <button className="text-muted">Muted link</button>
             </p>
             <p>
-              <a className="text-white bg-dark">White link</a>
+              <button className="text-white bg-dark">White link</button>
             </p>
           </div>
         </div>

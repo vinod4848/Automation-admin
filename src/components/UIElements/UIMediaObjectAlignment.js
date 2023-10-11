@@ -14,7 +14,7 @@ class UIMediaObjectAlignment extends React.Component {
               <div className="media">
                 <div className="media-left">
                   {" "}
-                  <a>
+                  <button>
                     {" "}
                     <img
                       alt=""
@@ -23,7 +23,7 @@ class UIMediaObjectAlignment extends React.Component {
                       width="64"
                       height="64"
                     />{" "}
-                  </a>{" "}
+                  </button>{" "}
                 </div>
                 <div className="media-body">
                   <h4 className="media-heading">Top aligned media</h4>
@@ -46,7 +46,7 @@ class UIMediaObjectAlignment extends React.Component {
               <div className="media">
                 <div className="media-left media-middle">
                   {" "}
-                  <a>
+                  <button>
                     {" "}
                     <img
                       alt=""
@@ -55,7 +55,7 @@ class UIMediaObjectAlignment extends React.Component {
                       width="64"
                       height="64"
                     />{" "}
-                  </a>{" "}
+                  </button>{" "}
                 </div>
                 <div className="media-body">
                   <h4 className="media-heading">Middle aligned media</h4>
@@ -78,7 +78,7 @@ class UIMediaObjectAlignment extends React.Component {
               <div className="media">
                 <div className="media-left media-bottom">
                   {" "}
-                  <a>
+                  <button>
                     {" "}
                     <img
                       alt=""
@@ -87,7 +87,7 @@ class UIMediaObjectAlignment extends React.Component {
                       width="64"
                       height="64"
                     />{" "}
-                  </a>{" "}
+                  </button>{" "}
                 </div>
                 <div className="media-body">
                   <h4 className="media-heading">Bottom aligned media</h4>

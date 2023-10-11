@@ -13,7 +13,7 @@ class UIMediaObjectDefault extends React.Component {
             <div className="media mleft">
               <div className="media-left">
                 {" "}
-                <a>
+                <button>
                   {" "}
                   <img
                     className="media-object"
@@ -22,7 +22,7 @@ class UIMediaObjectDefault extends React.Component {
                     height="64"
                     alt=""
                   />{" "}
-                </a>{" "}
+                </button>{" "}
               </div>
               <div className="media-body">
                 <h4 className="media-heading">Media heading</h4>
@@ -36,7 +36,7 @@ class UIMediaObjectDefault extends React.Component {
             <div className="media mleft">
               <div className="media-left">
                 {" "}
-                <a>
+                <button>
                   {" "}
                   <img
                     alt=""
@@ -45,7 +45,7 @@ class UIMediaObjectDefault extends React.Component {
                     width="64"
                     height="64"
                   />{" "}
-                </a>{" "}
+                </button>{" "}
               </div>
               <div className="media-body">
                 <h4 className="media-heading">Media heading</h4>
@@ -57,7 +57,7 @@ class UIMediaObjectDefault extends React.Component {
                 <div className="media m-t-20">
                   <div className="media-left">
                     {" "}
-                    <a>
+                    <button>
                       {" "}
                       <img
                         alt=""
@@ -66,7 +66,7 @@ class UIMediaObjectDefault extends React.Component {
                         width="64"
                         height="64"
                       />{" "}
-                    </a>{" "}
+                    </button>{" "}
                   </div>
                   <div className="media-body">
                     <h4 className="media-heading">Nested media heading</h4>
@@ -88,7 +88,7 @@ class UIMediaObjectDefault extends React.Component {
               </div>
               <div className="media-right">
                 {" "}
-                <a>
+                <button>
                   {" "}
                   <img
                     alt=""
@@ -97,13 +97,13 @@ class UIMediaObjectDefault extends React.Component {
                     width="64"
                     height="64"
                   />{" "}
-                </a>{" "}
+                </button>{" "}
               </div>
             </div>
             <div className="media mleft">
               <div className="media-left">
                 {" "}
-                <a>
+                <button>
                   {" "}
                   <img
                     alt=""
@@ -112,7 +112,7 @@ class UIMediaObjectDefault extends React.Component {
                     width="64"
                     height="64"
                   />{" "}
-                </a>{" "}
+                </button>{" "}
               </div>
               <div className="media-body">
                 <h4 className="media-heading">Media heading</h4>
@@ -122,15 +122,17 @@ class UIMediaObjectDefault extends React.Component {
               </div>
               <div className="media-right">
                 {" "}
-                <a>
+                <button>
                   {" "}
                   <img
                     className="media-object"
                     src="http://via.placeholder.com/64x64"
                     width="64"
                     height="64"
-                  />{" "}
-                </a>{" "}
+                    alt=""
+                  />
+                  {" "}
+                </button>{" "}
               </div>
             </div>
           </div>

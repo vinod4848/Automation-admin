@@ -1013,14 +1013,14 @@ class UIIconsFontAwesomeIcon extends React.Component {
               {" "}
               These icons work great with the
               <code>fa-spin</code> class. Check out the
-              <a
+              <button
                 href="http://fortawesome.github.io/Font-Awesome/examples/#spinning"
 
                 className="alert-link"
               >
                 {" "}
                 spinning icons example
-              </a>
+              </button>
               .{" "}
             </div>
             <div className="row icons-list">
@@ -1575,10 +1575,10 @@ class UIIconsFontAwesomeIcon extends React.Component {
               Apparently, Adblock Plus can remove Font Awesome brand icons with
               their "Remove Social Media Buttons" setting. We will not use hacks
               to force them to display. Please
-              <a href="https://adblockplus.org/en/bugs" className="alert-link">
+              <button href="https://adblockplus.org/en/bugs" className="alert-link">
                 {" "}
                 report an issue with Adblock Plus
-              </a>{" "}
+              </button>{" "}
               if you believe this to be an error. To work around this, you'll
               need to modify the social icon class names.{" "}
             </div>

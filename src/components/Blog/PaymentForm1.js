@@ -16,17 +16,18 @@ class PaymentForm1 extends React.Component {
           <div className="body">
             {name === "Payment form1" ? (
               <p>
-                <img className="m-r-5" src={mastercard} />
-                <img className="m-r-5" src={visacard} />
-                <img src={paypal} />
+                <img className="m-r-5" src={mastercard} alt="Mastercard" />
+                <img className="m-r-5" src={visacard} alt="Visa" />
+                <img src={paypal} alt="PayPal" />
               </p>
+
             ) : (
               <ul
                 role="tablist"
                 className="nav nav-pills justify-content-start mb-2"
               >
                 <li className="nav-item">
-                  <a
+                  <button
                     className="nav-link active"
                     role="tab"
                     id="ngb-tab-0"
@@ -35,10 +36,10 @@ class PaymentForm1 extends React.Component {
                     aria-disabled="false"
                   >
                     <i className="fa fa-credit-card"></i> Credit Card
-                  </a>
+                  </button>
                 </li>
                 <li className="nav-item">
-                  <a
+                  <button
                     className="nav-link"
                     role="tab"
                     id="ngb-tab-1"
@@ -46,10 +47,10 @@ class PaymentForm1 extends React.Component {
                     aria-disabled="false"
                   >
                     <i className="fa fa-paypal"></i> Paypal
-                  </a>
+                  </button>
                 </li>
                 <li className="nav-item">
-                  <a
+                  <button
                     className="nav-link"
                     role="tab"
                     id="ngb-tab-2"
@@ -57,7 +58,7 @@ class PaymentForm1 extends React.Component {
                     aria-disabled="false"
                   >
                     <i className="fa fa-university"></i> Bank Transfer
-                  </a>
+                  </button>
                 </li>
               </ul>
             )}

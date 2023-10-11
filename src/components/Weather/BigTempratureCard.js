@@ -13,9 +13,9 @@ class BigTempratureCard extends React.Component {
               <p className="temp">
                 <span className="temp-value">23</span>
                 <span className="deg">0</span>
-                <a>
+                <button>
                   <span className="temp-type">C</span>
-                </a>
+                </button>
               </p>
             </div>
           </div>

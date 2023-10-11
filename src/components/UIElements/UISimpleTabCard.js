@@ -43,7 +43,7 @@ class UISimpleTabCard extends React.Component {
                             : "nav-item mr-1"
                         }
                       >
-                        <a
+                        <button
                           className={
                             keys === Wind.perent
                               ? activeIndex[index]
@@ -65,7 +65,7 @@ class UISimpleTabCard extends React.Component {
                             ></i>
                           ) : null}
                           {data.header}
-                        </a>
+                        </button>
                       </li>
                     );
                   })

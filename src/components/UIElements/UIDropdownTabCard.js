@@ -21,9 +21,9 @@ class UIDropdownTabCard extends React.Component {
           <div className="body">
             <ul className={NavTabClass ? NavTabClass : "nav nav-tabs"}>
               <li className="nav-item mr-1">
-                <a className="nav-link active show" data-toggle="tab">
+                <button className="nav-link active show" data-toggle="tab">
                   Active{" "}
-                </a>
+                </button>
               </li>
               <li
                 className={
@@ -35,26 +35,26 @@ class UIDropdownTabCard extends React.Component {
                 <Dropdown className="">
                   <Dropdown.Toggle
                     variant="success"
-                    as="a"
+                    as="button"
                     className="nav-link "
                     id="dropdown-basic"
                   >
                     Dropdown
                   </Dropdown.Toggle>
                   <Dropdown.Menu as="div" className="dropdown-menu">
-                    <a className="dropdown-item">Action</a>
-                    <a className="dropdown-item">Another action</a>
-                    <a className="dropdown-item">Something else here</a>
+                    <button className="dropdown-item">Action</button>
+                    <button className="dropdown-item">Another action</button>
+                    <button className="dropdown-item">Something else here</button>
                     <div className="dropdown-divider"></div>
-                    <a className="dropdown-item">Separated link</a>
+                    <button className="dropdown-item">Separated link</button>
                   </Dropdown.Menu>
                 </Dropdown>
               </li>
               <li className="nav-item">
-                <a className="nav-link">Link</a>
+                <button className="nav-link">Link</button>
               </li>
               <li className="nav-item">
-                <a className="nav-link disabled">Disabled</a>
+                <button className="nav-link disabled">Disabled</button>
               </li>
             </ul>
             <div className="tab-content">

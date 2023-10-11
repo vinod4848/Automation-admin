@@ -195,8 +195,8 @@ class UIButtonGroupCard extends React.Component {
                       as="ul"
                       className="dropdown-menu dropdown-menu-right"
                     >
-                      <a className="dropdown-item">Dropdown link</a>
-                      <a className="dropdown-item">Dropdown link</a>
+                      <button className="dropdown-item">Dropdown link</button>
+                      <button className="dropdown-item">Dropdown link</button>
                     </Dropdown.Menu>
                   </Dropdown>
                 </div>

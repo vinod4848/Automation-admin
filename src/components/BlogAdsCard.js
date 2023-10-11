@@ -26,8 +26,9 @@ class BlogAdsCard extends React.Component {
               {RefLink
                 ? RefLink.map((data, i) => {
                     return (
-                      <li key={`${i}` + "isgcyjghh"}>
-                        <a href={data.link}>{data.name}</a>
+                      <li key={`${i}isgcyjghh`}>
+
+                        <button href={data.link}>{data.name}</button>
                       </li>
                     );
                   })
@@ -41,11 +42,11 @@ class BlogAdsCard extends React.Component {
               <div className="col-lg-12">
                 {PostList.map((data, i) => {
                   return (
-                    <div className="single_post" key={`${i}` + "ishvjkljh45"}>
+                    <div className="single_post" key={`${i}${"ishvjkljh45"}`}>
                       <p className="m-b-0">{data.Ads}</p>
                       <span>{data.Date}</span>
                       <div className="img-post">
-                        <img alt="Awesome Image" src={data.ImageUrl} />
+                        <img alt="Awesome" src={data.ImageUrl} />
                       </div>
                     </div>
                   );
@@ -59,10 +60,10 @@ class BlogAdsCard extends React.Component {
             <ul className="list-unstyled instagram-plugin m-b-0">
               {ImageList.map((data, i) => {
                 return (
-                  <li key={`${i}` + "iszdsehyw5h"}>
-                    <a>
-                      <img src={data.ImageUrl} alt="image description" />
-                    </a>
+                  <li key={`${i}iszdsehyw5h`}>
+                    <button>
+                      <img src={data.ImageUrl} alt="Description" />
+                    </button>
                   </li>
                 );
               })}
